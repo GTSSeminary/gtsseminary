@@ -193,6 +193,15 @@ def inject(el, value):
         return
     text_children = [c for c in children if (c.text or '').strip() and c.tag not in ('svg', 'img')]
     if not text_children:
+        icon_children = [c for c in children if c.tag in ('svg', 'img')]
+        tailed = [c for c in icon_children if (c.tail or '').strip()]
+        if tailed:
+            last = tailed[-1]
+            for c in children:
+                if c is not last:
+                    c.tail = None
+            last.tail = value
+            return
         el.text = value
         for c in children:
             c.tail = None
