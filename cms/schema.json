@@ -1,0 +1,4490 @@
+{
+ "home.hero.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "Home",
+  "label": "h1"
+ },
+ "home.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 277,
+  "max_words": 44,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.hero.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.hero.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.hero.quote.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 226,
+  "max_words": 36,
+  "group": "Home",
+  "label": "blockquote"
+ },
+ "home.hero.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.hero.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.choose_your_path_of_study.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.choose_your_path_of_study.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.choose_your_path_of_study.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.a_three_fold_biblical_approach.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_three_fold_biblical_approach.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.a_three_fold_biblical_approach.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_three_fold_biblical_approach.doctrine.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.a_three_fold_biblical_approach.doctrine.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_three_fold_biblical_approach.meditation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.a_three_fold_biblical_approach.meditation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_three_fold_biblical_approach.mentoring.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.a_three_fold_biblical_approach.mentoring.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 118,
+  "max_words": 19,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 422,
+  "max_words": 68,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 269,
+  "max_words": 43,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.a_reformed_baptist_seminary_welcoming_al.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 249,
+  "max_words": 40,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.one_journey_four_steps.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.one_journey_four_steps.certificate.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.one_journey_four_steps.certificate.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.one_journey_four_steps.associate.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.one_journey_four_steps.associate.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.accent.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.one_journey_four_steps.bachelor_of_theology.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.one_journey_four_steps.bachelor_of_theology.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.accent.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.one_journey_four_steps.bachelor_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.one_journey_four_steps.bachelor_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.one_journey_four_steps.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.grace_bible_university.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.grace_bible_university.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.1689_baptist_confession.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.1689_baptist_confession.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.tuition_free.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.tuition_free.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.what_our_students_say.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.what_our_students_say.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.what_our_students_say.quote.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 181,
+  "max_words": 29,
+  "group": "Home",
+  "label": "blockquote"
+ },
+ "home.what_our_students_say.attribution.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 267,
+  "max_words": 43,
+  "group": "Home",
+  "label": "figcaption"
+ },
+ "home.what_our_students_say.quote.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 177,
+  "max_words": 28,
+  "group": "Home",
+  "label": "blockquote"
+ },
+ "home.what_our_students_say.attribution.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 267,
+  "max_words": 43,
+  "group": "Home",
+  "label": "figcaption"
+ },
+ "home.what_our_students_say.quote.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 190,
+  "max_words": 30,
+  "group": "Home",
+  "label": "blockquote"
+ },
+ "home.what_our_students_say.attribution.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 267,
+  "max_words": 43,
+  "group": "Home",
+  "label": "figcaption"
+ },
+ "home.what_our_students_say.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.news_upcoming_events.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.news_upcoming_events.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.news_upcoming_events.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.new_student_orientation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.new_student_orientation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.seminary_open_day.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.seminary_open_day.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.accent.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.graduation_commissioning.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Home",
+  "label": "h3"
+ },
+ "home.graduation_commissioning.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.begin_your_call_to_ministry_today.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.begin_your_call_to_ministry_today.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 99,
+  "max_words": 15,
+  "group": "Home",
+  "label": "h2"
+ },
+ "home.begin_your_call_to_ministry_today.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 169,
+  "max_words": 27,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.begin_your_call_to_ministry_today.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.begin_your_call_to_ministry_today.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "a"
+ },
+ "home.begin_your_call_to_ministry_today.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.begin_your_call_to_ministry_today.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Home",
+  "label": "p"
+ },
+ "home.begin_your_call_to_ministry_today.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Home",
+  "label": "li"
+ },
+ "home.begin_your_call_to_ministry_today.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Home",
+  "label": "li"
+ },
+ "home.begin_your_call_to_ministry_today.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Home",
+  "label": "li"
+ },
+ "global.topbar.phone": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Global",
+  "label": "a"
+ },
+ "global.topbar.email": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Global",
+  "label": "a"
+ },
+ "global.topbar.cta": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Global",
+  "label": "a"
+ },
+ "global.brand.name": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Global",
+  "label": "span"
+ },
+ "global.brand.tagline": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "Global",
+  "label": "span"
+ },
+ "global.footer.name": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Global",
+  "label": "span"
+ },
+ "global.footer.tagline": {
+  "type": "text",
+  "required": true,
+  "max_chars": 210,
+  "max_words": 33,
+  "group": "Global",
+  "label": "span"
+ },
+ "global.footer.about": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Global",
+  "label": "p"
+ },
+ "global.footer.phone": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Global",
+  "label": "a"
+ },
+ "global.footer.email": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Global",
+  "label": "a"
+ },
+ "global.footer.address": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Global",
+  "label": "p"
+ },
+ "global.footer.newsletter": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Global",
+  "label": "p"
+ },
+ "global.footer.copyright": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "Global",
+  "label": "p"
+ },
+ "home.marquee.item.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.marquee.item.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.marquee.item.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.marquee.item.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.marquee.item.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "home.marquee.item.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Home",
+  "label": "span"
+ },
+ "about.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h1"
+ },
+ "about.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 196,
+  "max_words": 31,
+  "group": "About",
+  "label": "p"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 178,
+  "max_words": 28,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 431,
+  "max_words": 69,
+  "group": "About",
+  "label": "p"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.gts_is_a_reformed_baptist_seminary_welco.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.why_gts_exists.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.why_gts_exists.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.why_gts_exists.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 314,
+  "max_words": 50,
+  "group": "About",
+  "label": "p"
+ },
+ "about.why_gts_exists.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 358,
+  "max_words": 57,
+  "group": "About",
+  "label": "p"
+ },
+ "about.why_gts_exists.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "About",
+  "label": "p"
+ },
+ "about.why_gts_exists.what_we_offer.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.why_gts_exists.what_we_offer.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "About",
+  "label": "li"
+ },
+ "about.why_gts_exists.what_we_offer.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "About",
+  "label": "li"
+ },
+ "about.why_gts_exists.what_we_offer.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "About",
+  "label": "li"
+ },
+ "about.why_gts_exists.what_we_offer.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "About",
+  "label": "li"
+ },
+ "about.why_gts_exists.what_we_offer.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "About",
+  "label": "a"
+ },
+ "about.a_three_pronged_biblical_approach.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.a_three_pronged_biblical_approach.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 75,
+  "max_words": 12,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.doctrine.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.a_three_pronged_biblical_approach.doctrine.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 75,
+  "max_words": 12,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.meditation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.a_three_pronged_biblical_approach.meditation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 75,
+  "max_words": 12,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_three_pronged_biblical_approach.mentoring.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.a_three_pronged_biblical_approach.mentoring.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 320,
+  "max_words": 51,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 470,
+  "max_words": 75,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.kicker.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "About",
+  "label": "p"
+ },
+ "about.a_christian_theistic_world_and_life_view.paragraph.8": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_1689_baptist_confession.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_1689_baptist_confession.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.the_1689_baptist_confession.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_1689_baptist_confession.reformed.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_1689_baptist_confession.reformed.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_1689_baptist_confession.baptist.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_1689_baptist_confession.baptist.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_1689_baptist_confession.confessional.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_1689_baptist_confession.confessional.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.the_men_god_has_given_to_gts.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_tony_okoroh.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_tony_okoroh.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.director.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.director.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.director.heading.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.director.kicker.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.administrator.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.administrator.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_osagie_azeta.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_osagie_azeta.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_abutu_peter_joshua.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h3"
+ },
+ "about.the_men_god_has_given_to_gts.pastor_abutu_peter_joshua.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.the_men_god_has_given_to_gts.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "About",
+  "label": "p"
+ },
+ "about.grace_bible_university.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "About",
+  "label": "p"
+ },
+ "about.grace_bible_university.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.grace_bible_university.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 487,
+  "max_words": 78,
+  "group": "About",
+  "label": "p"
+ },
+ "about.grace_bible_university.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "About",
+  "label": "p"
+ },
+ "about.ready_to_join_a_seminary_committed_to_fa.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "About",
+  "label": "h2"
+ },
+ "about.ready_to_join_a_seminary_committed_to_fa.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 180,
+  "max_words": 29,
+  "group": "About",
+  "label": "p"
+ },
+ "about.ready_to_join_a_seminary_committed_to_fa.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "About",
+  "label": "a"
+ },
+ "about.ready_to_join_a_seminary_committed_to_fa.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "About",
+  "label": "a"
+ },
+ "academics.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Academics",
+  "label": "h1"
+ },
+ "academics.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 281,
+  "max_words": 45,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Academics",
+  "label": "h2"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 218,
+  "max_words": 35,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Academics",
+  "label": "span"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Academics",
+  "label": "a"
+ },
+ "academics.four_programs_one_faithful_foundation.certificate_of_ministry.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Academics",
+  "label": "span"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Academics",
+  "label": "a"
+ },
+ "academics.four_programs_one_faithful_foundation.associate_degree_of_ministry.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.accent.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Academics",
+  "label": "span"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 259,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Academics",
+  "label": "a"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_theology.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.accent.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Academics",
+  "label": "span"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Academics",
+  "label": "a"
+ },
+ "academics.four_programs_one_faithful_foundation.bachelor_of_ministry.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.four_programs_one_faithful_foundation.paragraph.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Academics",
+  "label": "h2"
+ },
+ "academics.by_semester.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 238,
+  "max_words": 38,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.certificate_of_ministry.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.certificate_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.by_semester.certificate_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.certificate_of_ministry.bullet.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.associate_degree_of_ministry.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.by_semester.associate_degree_of_ministry.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.associate_degree_of_ministry.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.toward_the_bachelor_s.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.by_semester.toward_the_bachelor_s.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.toward_the_bachelor_s.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.final_year.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.by_semester.final_year.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.final_year.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.by_semester.final_year.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.final_year.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.by_semester.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Academics",
+  "label": "h2"
+ },
+ "academics.how_gts_students_study.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.reflection_discussion.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.how_gts_students_study.reflection_discussion.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 664,
+  "max_words": 107,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.scriptural_memory_work.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.how_gts_students_study.scriptural_memory_work.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 320,
+  "max_words": 51,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.personal_application.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.how_gts_students_study.personal_application.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 496,
+  "max_words": 80,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.self_assessment.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.how_gts_students_study.self_assessment.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.how_gts_students_study.self_assessment.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 281,
+  "max_words": 45,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.a_sample_of_what_you_ll_study.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Academics",
+  "label": "p"
+ },
+ "academics.a_sample_of_what_you_ll_study.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Academics",
+  "label": "h2"
+ },
+ "academics.a_sample_of_what_you_ll_study.biblical_studies.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 251,
+  "max_words": 40,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 275,
+  "max_words": 44,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 316,
+  "max_words": 50,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 217,
+  "max_words": 35,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 265,
+  "max_words": 42,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 236,
+  "max_words": 38,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.survey_languages.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.revival_missionary_studies.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.a_sample_of_what_you_ll_study.revival_missionary_studies.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.revival_missionary_studies.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.revival_missionary_studies.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.exposition_pastoral_theology.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Academics",
+  "label": "h3"
+ },
+ "academics.a_sample_of_what_you_ll_study.exposition_pastoral_theology.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.exposition_pastoral_theology.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.exposition_pastoral_theology.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Academics",
+  "label": "li"
+ },
+ "academics.a_sample_of_what_you_ll_study.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Academics",
+  "label": "a"
+ },
+ "academics.a_sample_of_what_you_ll_study.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Academics",
+  "label": "a"
+ },
+ "admission.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Admission",
+  "label": "h1"
+ },
+ "admission.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 244,
+  "max_words": 39,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.hero.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "admission.hero.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "admission.who_can_apply.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.who_can_apply.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Admission",
+  "label": "h2"
+ },
+ "admission.who_can_apply.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 310,
+  "max_words": 50,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.who_can_apply.any_age.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.who_can_apply.any_age.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.who_can_apply.any_religious_persuasion.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.who_can_apply.any_religious_persuasion.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 274,
+  "max_words": 44,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "admission.before_you_apply.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.before_you_apply.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Admission",
+  "label": "h2"
+ },
+ "admission.before_you_apply.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.before_you_apply.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 211,
+  "max_words": 34,
+  "group": "Admission",
+  "label": "li"
+ },
+ "admission.before_you_apply.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Admission",
+  "label": "li"
+ },
+ "admission.before_you_apply.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 319,
+  "max_words": 51,
+  "group": "Admission",
+  "label": "li"
+ },
+ "admission.before_you_apply.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 313,
+  "max_words": 50,
+  "group": "Admission",
+  "label": "li"
+ },
+ "admission.applying_to_grace_truth.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Admission",
+  "label": "h2"
+ },
+ "admission.applying_to_grace_truth.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.submit_your_application.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.applying_to_grace_truth.submit_your_application.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.application_review.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.applying_to_grace_truth.application_review.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 93,
+  "max_words": 15,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.interview.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.applying_to_grace_truth.interview.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.what_happens_next.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.applying_to_grace_truth.what_happens_next.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 229,
+  "max_words": 36,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.applying_to_grace_truth.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "admission.key_dates_deadlines.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Admission",
+  "label": "h2"
+ },
+ "admission.key_dates_deadlines.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 210,
+  "max_words": 33,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.applications_open.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.key_dates_deadlines.applications_open.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.accent.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 210,
+  "max_words": 33,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.application_deadline.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.key_dates_deadlines.application_deadline.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.accent.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.8": {
+  "type": "text",
+  "required": true,
+  "max_chars": 210,
+  "max_words": 33,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.interviews_admission_letters.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.key_dates_deadlines.interviews_admission_letters.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.accent.9": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.10": {
+  "type": "text",
+  "required": true,
+  "max_chars": 108,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.accent.11": {
+  "type": "text",
+  "required": true,
+  "max_chars": 210,
+  "max_words": 33,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.new_student_orientation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 111,
+  "max_words": 17,
+  "group": "Admission",
+  "label": "h3"
+ },
+ "admission.key_dates_deadlines.new_student_orientation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.accent.12": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "Admission",
+  "label": "span"
+ },
+ "admission.key_dates_deadlines.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Admission",
+  "label": "p"
+ },
+ "admission.key_dates_deadlines.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "admission.key_dates_deadlines.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Admission",
+  "label": "a"
+ },
+ "news.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "News & Events",
+  "label": "h1"
+ },
+ "news.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 186,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "News & Events",
+  "label": "h2"
+ },
+ "news.mark_your_calendar.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.applications_open.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.applications_open.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "News & Events",
+  "label": "a"
+ },
+ "news.mark_your_calendar.accent.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.new_student_orientation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.new_student_orientation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.accent.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.8": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.9": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.application_deadline.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.application_deadline.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.accent.10": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.11": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.12": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.interviews_admission_letters.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.interviews_admission_letters.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.accent.13": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.14": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.15": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.seminary_open_day.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.seminary_open_day.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "News & Events",
+  "label": "a"
+ },
+ "news.mark_your_calendar.accent.16": {
+  "type": "text",
+  "required": true,
+  "max_chars": 87,
+  "max_words": 14,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.17": {
+  "type": "text",
+  "required": true,
+  "max_chars": 189,
+  "max_words": 30,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.accent.18": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "News & Events",
+  "label": "span"
+ },
+ "news.mark_your_calendar.graduation_commissioning.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.mark_your_calendar.graduation_commissioning.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.mark_your_calendar.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "News & Events",
+  "label": "h2"
+ },
+ "news.from_the_seminary.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.welcome_to_the_new_academic_year.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.from_the_seminary.welcome_to_the_new_academic_year.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.gbu_study_method_why_we_study_this_way.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.from_the_seminary.gbu_study_method_why_we_study_this_way.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.graduation_recap_the_class_of_2025.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "News & Events",
+  "label": "h3"
+ },
+ "news.from_the_seminary.graduation_recap_the_class_of_2025.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.from_the_seminary.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "news.don_t_miss_what_s_happening_at_gts.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "News & Events",
+  "label": "h2"
+ },
+ "news.don_t_miss_what_s_happening_at_gts.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 180,
+  "max_words": 29,
+  "group": "News & Events",
+  "label": "p"
+ },
+ "faq.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "FAQ",
+  "label": "h1"
+ },
+ "faq.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 197,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.link.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.link.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.link.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 150,
+  "max_words": 24,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.about_gts.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.about_gts.question.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.about_gts.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 299,
+  "max_words": 48,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.about_gts.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 353,
+  "max_words": 56,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.about_gts.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.about_gts.question.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.about_gts.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 367,
+  "max_words": 59,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.about_gts.question.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.about_gts.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 262,
+  "max_words": 42,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.about_gts.question.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.about_gts.paragraph.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 380,
+  "max_words": 61,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.programs_academics.question.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.programs_academics.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.programs_academics.question.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.programs_academics.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 640,
+  "max_words": 103,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 322,
+  "max_words": 51,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.paragraph.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.programs_academics.question.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.programs_academics.paragraph.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 227,
+  "max_words": 36,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.programs_academics.bullet.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.6": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.bullet.8": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.programs_academics.link.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.programs_academics.question.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.programs_academics.paragraph.7": {
+  "type": "text",
+  "required": true,
+  "max_chars": 463,
+  "max_words": 74,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.admission_application.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.admission_application.question.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.admission_application.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 463,
+  "max_words": 74,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.admission_application.question.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.admission_application.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.admission_application.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.admission_application.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.admission_application.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 220,
+  "max_words": 35,
+  "group": "FAQ",
+  "label": "li"
+ },
+ "faq.admission_application.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.admission_application.question.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.admission_application.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 469,
+  "max_words": 75,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.admission_application.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.admission_application.question.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.admission_application.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 304,
+  "max_words": 49,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.admission_application.question.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.admission_application.paragraph.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 310,
+  "max_words": 50,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.fees_costs.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.fees_costs.question.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.fees_costs.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 338,
+  "max_words": 54,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.fees_costs.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.campus_contact.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.campus_contact.question.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.campus_contact.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.campus_contact.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.campus_contact.question.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "FAQ",
+  "label": "summary"
+ },
+ "faq.campus_contact.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.campus_contact.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.still_have_a_question.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "FAQ",
+  "label": "h2"
+ },
+ "faq.still_have_a_question.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 180,
+  "max_words": 29,
+  "group": "FAQ",
+  "label": "p"
+ },
+ "faq.still_have_a_question.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "faq.still_have_a_question.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "FAQ",
+  "label": "a"
+ },
+ "resources.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Resources",
+  "label": "h1"
+ },
+ "resources.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 266,
+  "max_words": 42,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Resources",
+  "label": "h2"
+ },
+ "resources.hear_the_word_preached.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.committed_to_faithful_men.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.hear_the_word_preached.committed_to_faithful_men.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.committed_to_faithful_men.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.the_sovereignty_of_god.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.hear_the_word_preached.the_sovereignty_of_god.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.the_sovereignty_of_god.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.the_theology_of_prayer.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.hear_the_word_preached.the_theology_of_prayer.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.the_theology_of_prayer.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.hear_the_word_preached.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Resources",
+  "label": "h2"
+ },
+ "resources.read_for_growth.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.accent.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Resources",
+  "label": "span"
+ },
+ "resources.read_for_growth.10_benefits_all_new_covenant_members_enj.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.read_for_growth.10_benefits_all_new_covenant_members_enj.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.10_benefits_all_new_covenant_members_enj.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.accent.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 174,
+  "max_words": 28,
+  "group": "Resources",
+  "label": "span"
+ },
+ "resources.read_for_growth.why_we_hold_the_1689_confession.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.read_for_growth.why_we_hold_the_1689_confession.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.why_we_hold_the_1689_confession.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.read_for_growth.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Resources",
+  "label": "h2"
+ },
+ "resources.for_churches_and_leaders.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.membership_study.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.for_churches_and_leaders.membership_study.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.scripture_memory_cards.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.for_churches_and_leaders.scripture_memory_cards.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.training_the_next_generation.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 168,
+  "max_words": 27,
+  "group": "Resources",
+  "label": "h3"
+ },
+ "resources.for_churches_and_leaders.training_the_next_generation.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.for_churches_and_leaders.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.a_library_for_faithful_study.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.a_library_for_faithful_study.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Resources",
+  "label": "h2"
+ },
+ "resources.a_library_for_faithful_study.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 289,
+  "max_words": 46,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.a_library_for_faithful_study.bullet.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Resources",
+  "label": "li"
+ },
+ "resources.a_library_for_faithful_study.bullet.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Resources",
+  "label": "li"
+ },
+ "resources.a_library_for_faithful_study.bullet.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Resources",
+  "label": "li"
+ },
+ "resources.a_library_for_faithful_study.bullet.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 192,
+  "max_words": 30,
+  "group": "Resources",
+  "label": "li"
+ },
+ "resources.a_library_for_faithful_study.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Resources",
+  "label": "a"
+ },
+ "resources.a_library_for_faithful_study.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 249,
+  "max_words": 40,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.a_library_for_faithful_study.paragraph.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.looking_for_something_specific.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Resources",
+  "label": "h2"
+ },
+ "resources.looking_for_something_specific.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 180,
+  "max_words": 29,
+  "group": "Resources",
+  "label": "p"
+ },
+ "resources.looking_for_something_specific.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Resources",
+  "label": "a"
+ },
+ "resources.looking_for_something_specific.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Resources",
+  "label": "a"
+ },
+ "contact.hero.title": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Contact",
+  "label": "h1"
+ },
+ "contact.hero.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 232,
+  "max_words": 37,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.visit_us.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Contact",
+  "label": "h3"
+ },
+ "contact.visit_us.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.call_us.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Contact",
+  "label": "h3"
+ },
+ "contact.call_us.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.email_us.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Contact",
+  "label": "h3"
+ },
+ "contact.email_us.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.our_location_in_lagos.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.our_location_in_lagos.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Contact",
+  "label": "h2"
+ },
+ "contact.our_location_in_lagos.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 198,
+  "max_words": 31,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.our_location_in_lagos.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.write_to_us.kicker": {
+  "type": "text",
+  "required": true,
+  "max_chars": 258,
+  "max_words": 41,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.write_to_us.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 117,
+  "max_words": 18,
+  "group": "Contact",
+  "label": "h2"
+ },
+ "contact.write_to_us.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 300,
+  "max_words": 48,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.follow_the_ministry_of_gts.heading": {
+  "type": "text",
+  "required": true,
+  "max_chars": 141,
+  "max_words": 22,
+  "group": "Contact",
+  "label": "h2"
+ },
+ "contact.follow_the_ministry_of_gts.paragraph.1": {
+  "type": "text",
+  "required": true,
+  "max_chars": 180,
+  "max_words": 29,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.follow_the_ministry_of_gts.link": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Contact",
+  "label": "a"
+ },
+ "contact.follow_the_ministry_of_gts.link.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Contact",
+  "label": "a"
+ },
+ "contact.follow_the_ministry_of_gts.link.3": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Contact",
+  "label": "a"
+ },
+ "contact.follow_the_ministry_of_gts.link.4": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Contact",
+  "label": "a"
+ },
+ "contact.follow_the_ministry_of_gts.paragraph.2": {
+  "type": "text",
+  "required": true,
+  "max_chars": 225,
+  "max_words": 36,
+  "group": "Contact",
+  "label": "p"
+ },
+ "contact.follow_the_ministry_of_gts.link.5": {
+  "type": "text",
+  "required": true,
+  "max_chars": 129,
+  "max_words": 20,
+  "group": "Contact",
+  "label": "a"
+ }
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact | Grace &amp; Truth Theological Seminary</title>
+<meta name="description" content="Contact Grace &amp; Truth Theological Seminary — visit us at 30 Kings Avenue, Ojodu Abiodun, Ojodu Berger, Lagos, call +234 803 262 2079, or email info@gtslagos.ng."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        navy: {50:'#F2F5FA',100:'#E3E9F3',200:'#C5D0E4',300:'#9AACCC',400:'#6B82AB',500:'#475F8B',600:'#334A72',700:'#293A5C',800:'#1F2C47',900:'#172036',950:'#0E1424'},
+        gold: {50:'#FBF7EC',100:'#F5EBD0',200:'#EAD7A0',300:'#DDC170',400:'#CEAB4B',500:'#B9932E',600:'#9A7A26',700:'#7A5F20',800:'#5E4A1E',900:'#46371B'},
+        ivory: '#FBF9F4',
+        ink: '#1B2333'
+      },
+      fontFamily: {
+        serif: ['"Cormorant Garamond"','Georgia','serif'],
+        sans: ['Inter','ui-sans-serif','system-ui','sans-serif']
+      },
+      boxShadow: {
+        soft: '0 6px 24px -8px rgba(23,32,54,0.18)',
+        lift: '0 14px 40px -12px rgba(23,32,54,0.28)'
+      }
+    }
+  }
+}
+</script>
+<style>
+  ::selection { background:#B9932E; color:#fff; }
+  .nav-link { position:relative; }
+  .nav-link::after { content:''; position:absolute; left:0; bottom:-6px; height:2px; width:0; background:#B9932E; transition:width .25s ease; }
+  .nav-link:hover::after, .nav-link.active::after { width:100%; }
+  .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
+  .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+</style>
+<link rel="stylesheet" href="assets/css/animations.css"/>
+</head>
+<body class="bg-ivory text-ink font-sans antialiased">
+
+<div id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ===================== UTILITY TOP BAR ===================== -->
+<div class="bg-navy-950 text-ivory/80 text-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-11">
+    <div class="flex items-center gap-6">
+      <a href="tel:+2348032622079" class="flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer">
+        <svg class="w-4 h-4 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        +234 803 262 2079
+      </a>
+      <a href="mailto:info@gtslagos.ng" class="hidden md:flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer">
+        <svg class="w-4 h-4 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        info@gtslagos.ng
+      </a>
+    </div>
+    <div class="flex items-center gap-5">
+      <span class="hidden sm:flex items-center gap-3">
+        <a href="#" aria-label="Facebook" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="#" aria-label="Instagram" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+        <a href="#" aria-label="X (Twitter)" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+        <a href="#" aria-label="YouTube" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      </span>
+      <a href="admission.html" class="bg-gold-500 text-navy-950 font-semibold text-xs px-3 py-1.5 rounded hover:bg-gold-400 transition-colors cursor-pointer">Apply Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== MAIN NAV ===================== -->
+<header data-navbar class="glass-nav sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+    <a href="index.html" class="flex items-center gap-3 shrink-0 cursor-pointer">
+      <img src="assets/images/logo.svg" alt="Grace &amp; Truth Theological Seminary logo" width="54" height="70" class="h-14 w-auto shrink-0 logo-mark"/>
+      <span class="leading-tight">
+        <span class="block font-serif text-2xl text-navy-900 font-semibold">Grace &amp; Truth</span>
+        <span class="block text-[11px] tracking-[0.28em] uppercase text-gold-600 font-semibold">Theological Seminary</span>
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-navy-800">
+      <div class="group relative">
+        <a href="about.html" class="nav-link flex items-center gap-1 hover:text-navy-950 transition-colors cursor-pointer">About
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="dropdown-panel absolute left-0 top-full pt-3 z-50">
+          <div class="bg-white rounded-md shadow-lift border border-navy-900/10 w-64 p-3 text-sm">
+            <a href="about.html#who-we-are" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Who We Are</a>
+            <a href="about.html#purpose" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Introduction &amp; Purpose</a>
+            <a href="about.html#philosophy" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Philosophy of Education</a>
+            <a href="about.html#method" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Our Mission &amp; Method</a>
+            <a href="about.html#confession" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Confession of Faith</a>
+            <a href="about.html#leadership" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Leadership &amp; Faculty</a>
+            <div class="border-t border-navy-900/10 mt-2 pt-2 px-3 pb-1">
+              <a href="about.html#gbu" class="flex items-center justify-between text-gold-600 font-semibold hover:text-gold-700 transition-colors cursor-pointer">Our Partner: GBU
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group relative">
+        <a href="academics.html" class="nav-link flex items-center gap-1 hover:text-navy-950 transition-colors cursor-pointer">Academics
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="dropdown-panel absolute left-0 top-full pt-3 z-50">
+          <div class="bg-white rounded-md shadow-lift border border-navy-900/10 w-72 p-3 text-sm">
+            <a href="academics.html#degrees" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Degrees at a Glance</a>
+            <a href="academics.html#certificate" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Certificate of Ministry</a>
+            <a href="academics.html#associate" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Associate Degree of Ministry</a>
+            <a href="academics.html#bachelor-theology" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Bachelor of Theology</a>
+            <a href="academics.html#bachelor-ministry" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Bachelor of Ministry</a>
+            <a href="academics.html#curriculum" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Curriculum by Semester</a>
+            <a href="academics.html#study-guide" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Study Guide Method</a>
+            <a href="academics.html#courses" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Course Descriptions</a>
+          </div>
+        </div>
+      </div>
+      <div class="group relative">
+        <a href="admission.html" class="nav-link flex items-center gap-1 hover:text-navy-950 transition-colors cursor-pointer">Admission
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="dropdown-panel absolute left-0 top-full pt-3 z-50">
+          <div class="bg-white rounded-md shadow-lift border border-navy-900/10 w-64 p-3 text-sm">
+            <a href="admission.html#policy" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Admission Policy</a>
+            <a href="admission.html#requirements" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Requirements</a>
+            <a href="admission.html#how-to-apply" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">How to Apply</a>
+            <a href="admission.html#dates" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Important Dates</a>
+            <a href="faq.html" class="block px-3 py-2 rounded hover:bg-navy-50 transition-colors cursor-pointer">Frequently Asked Questions</a>
+          </div>
+        </div>
+      </div>
+      <a href="resources.html" class="nav-link hover:text-navy-950 transition-colors cursor-pointer">Resources</a>
+      <a href="events.html" class="nav-link hover:text-navy-950 transition-colors cursor-pointer">News &amp; Events</a>
+      <a href="contact.html" class="nav-link active hover:text-navy-950 transition-colors cursor-pointer">Contact</a>
+    </nav>
+
+    <div class="hidden lg:flex items-center gap-4">
+      <a href="admission.html#how-to-apply" class="bg-navy-900 text-white text-sm font-semibold px-5 py-2.5 rounded hover:bg-navy-700 transition-colors cursor-pointer">Apply Now</a>
+    </div>
+
+    <button id="menuBtn" class="lg:hidden text-navy-900 p-2 cursor-pointer" aria-label="Open menu">
+      <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-navy-900/10 shadow-soft">
+  <div class="px-6 py-4 text-sm font-medium text-navy-800 space-y-4">
+    <a href="about.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">About</a>
+    <a href="academics.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">Academics</a>
+    <a href="admission.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">Admission</a>
+    <a href="resources.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">Resources</a>
+    <a href="events.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">News &amp; Events</a>
+    <a href="contact.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">Contact</a>
+    <a href="admission.html#how-to-apply" class="block bg-navy-900 text-white text-center font-semibold px-5 py-3 rounded cursor-pointer">Apply Now</a>
+  </div>
+</div>
+
+<!-- ===================== PAGE HERO ===================== -->
+<section class="bg-navy-950 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+    <nav class="text-xs text-ivory/50 mb-4" aria-label="Breadcrumb">
+      <a href="index.html" class="hover:text-gold-400 transition-colors cursor-pointer">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-ivory/70">Contact</span>
+    </nav>
+    <h1 class="font-serif text-4xl lg:text-6xl font-semibold">Contact Us</h1>
+    <p class="mt-4 text-lg text-ivory/70 max-w-2xl">We would be glad to hear from you — whether you have a question about our programs, want to arrange a visit, or are ready to begin your application.</p>
+  </div>
+</section>
+
+<!-- ===================== CONTACT DETAILS ===================== -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+  <div data-reveal-stagger class="grid lg:grid-cols-3 gap-6">
+    <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center">
+      <div class="w-14 h-14 rounded-full bg-gold-500/15 text-gold-600 flex items-center justify-center mx-auto">
+        <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      </div>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-5">Visit Us</h3>
+      <p class="text-navy-600 mt-3 text-sm leading-relaxed">30 Kings Avenue,<br/>Ojodu Abiodun,<br/>Ojodu Berger,<br/>Lagos, Nigeria</p>
+    </div>
+    <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center">
+      <div class="w-14 h-14 rounded-full bg-gold-500/15 text-gold-600 flex items-center justify-center mx-auto">
+        <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      </div>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-5">Call Us</h3>
+      <p class="text-navy-600 mt-3 text-sm leading-relaxed">
+        <a href="tel:+2348032622079" class="hover:text-gold-600 transition-colors cursor-pointer">+234 803 262 2079</a>
+      </p>
+    </div>
+    <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center">
+      <div class="w-14 h-14 rounded-full bg-gold-500/15 text-gold-600 flex items-center justify-center mx-auto">
+        <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      </div>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-5">Email Us</h3>
+      <p class="text-navy-600 mt-3 text-sm leading-relaxed">
+        <a href="mailto:info@gtslagos.ng" class="hover:text-gold-600 transition-colors cursor-pointer">info@gtslagos.ng</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MAP + FORM ===================== -->
+<section class="bg-white border-y border-navy-900/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <div class="grid lg:grid-cols-2 gap-12">
+      <div data-reveal="left">
+        <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Find Us</p>
+        <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900">Our location in Lagos</h2>
+        <p class="text-navy-600 mt-4 text-lg leading-relaxed">GTS meets at 30 Kings Avenue in Ojodu Abiodun, near Ojodu Berger — easily reached from the Lagos–Ibadan expressway.</p>
+        <div class="mt-6 rounded-lg overflow-hidden border border-navy-900/10 shadow-soft">
+          <iframe
+            title="Map showing Grace &amp; Truth Theological Seminary, Ojodu Berger, Lagos"
+            src="https://www.google.com/maps?q=Ojodu+Berger,+Lagos,+Nigeria&output=embed"
+            class="w-full h-[320px] lg:h-[400px]"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="mt-3 text-xs text-navy-400">Map is approximate — confirm directions with the seminary office before visiting.</p>
+      </div>
+      <div data-reveal="right">
+        <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Send a Message</p>
+        <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900">Write to us</h2>
+        <form class="mt-8 space-y-5" onsubmit="return false;">
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label for="name" class="block text-sm font-semibold text-navy-800 mb-1.5">Full name</label>
+              <input id="name" type="text" required placeholder="Your name" class="w-full bg-ivory border border-navy-900/15 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-500"/>
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-semibold text-navy-800 mb-1.5">Email address</label>
+              <input id="email" type="email" required placeholder="you@example.com" class="w-full bg-ivory border border-navy-900/15 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-500"/>
+            </div>
+          </div>
+          <div>
+            <label for="phone" class="block text-sm font-semibold text-navy-800 mb-1.5">Phone (optional)</label>
+            <input id="phone" type="tel" placeholder="+234 ..." class="w-full bg-ivory border border-navy-900/15 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-500"/>
+          </div>
+          <div>
+            <label for="subject" class="block text-sm font-semibold text-navy-800 mb-1.5">Subject</label>
+            <select id="subject" class="w-full bg-ivory border border-navy-900/15 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-500">
+              <option>General enquiry</option>
+              <option>Admissions</option>
+              <option>Programs &amp; curriculum</option>
+              <option>Visiting / open day</option>
+              <option>Partnership &amp; donations</option>
+            </select>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-semibold text-navy-800 mb-1.5">Message</label>
+            <textarea id="message" rows="5" required placeholder="How can we help?" class="w-full bg-ivory border border-navy-900/15 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-500"></textarea>
+          </div>
+          <button class="bg-navy-900 text-white font-semibold px-8 py-3.5 rounded hover:bg-navy-700 transition-colors cursor-pointer">Send Message</button>
+        </form>
+        <p class="mt-4 text-xs text-navy-400">Form is not yet connected to a backend — wire it to your email service before launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOCIAL / APPLY ===================== -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <div data-reveal class="bg-navy-950 text-white rounded-lg p-10 text-center">
+    <h2 class="font-serif text-3xl lg:text-4xl font-semibold">Follow the ministry of GTS</h2>
+    <p class="text-ivory/70 mt-3 max-w-xl mx-auto">Keep up with the seminary and the work of Sovereign Grace Bible Church through our social channels.</p>
+    <div class="mt-7 flex justify-center gap-4">
+      <a href="#" aria-label="Facebook" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      <a href="#" aria-label="Instagram" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+      <a href="#" aria-label="X (Twitter)" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+      <a href="#" aria-label="YouTube" class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+    </div>
+    <p class="mt-9 text-ivory/70">Ready to begin? We would love to walk with you toward ministry.</p>
+    <a href="admission.html#how-to-apply" class="mt-5 inline-block bg-gold-500 text-navy-950 font-semibold px-8 py-3.5 rounded hover:bg-gold-400 transition-colors cursor-pointer">Apply Now</a>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="bg-navy-900 text-ivory/70">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.svg" alt="Grace &amp; Truth Theological Seminary logo" width="38" height="50" class="h-16 w-auto logo-mark shrink-0"/>
+          <div class="leading-tight">
+            <span class="block font-serif text-xl text-white font-semibold">Grace &amp; Truth</span>
+            <span class="block text-[10px] tracking-[0.26em] uppercase text-gold-500 font-semibold">Theological Seminary</span>
+          </div>
+        </div>
+        <p class="mt-5 text-sm leading-relaxed">A Reformed-Baptist seminary (1689 Confession) in Lagos, training men and women for faithful ministry through doctrine, meditation, and mentoring.</p>
+        <div class="flex items-center gap-4 mt-6">
+          <a href="#" aria-label="Facebook" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="#" aria-label="Instagram" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+          <a href="#" aria-label="X (Twitter)" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+          <a href="#" aria-label="YouTube" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold uppercase tracking-wider text-sm mb-5">Academics</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="academics.html#certificate" class="hover:text-gold-400 transition-colors cursor-pointer">Certificate of Ministry</a></li>
+          <li><a href="academics.html#associate" class="hover:text-gold-400 transition-colors cursor-pointer">Associate Degree of Ministry</a></li>
+          <li><a href="academics.html#bachelor-theology" class="hover:text-gold-400 transition-colors cursor-pointer">Bachelor of Theology</a></li>
+          <li><a href="academics.html#bachelor-ministry" class="hover:text-gold-400 transition-colors cursor-pointer">Bachelor of Ministry</a></li>
+          <li><a href="academics.html#curriculum" class="hover:text-gold-400 transition-colors cursor-pointer">Curriculum by Semester</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold uppercase tracking-wider text-sm mb-5">Admission</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="admission.html#policy" class="hover:text-gold-400 transition-colors cursor-pointer">Admission Policy</a></li>
+          <li><a href="admission.html#requirements" class="hover:text-gold-400 transition-colors cursor-pointer">Requirements</a></li>
+          <li><a href="admission.html#how-to-apply" class="hover:text-gold-400 transition-colors cursor-pointer">How to Apply</a></li>
+          <li><a href="admission.html#dates" class="hover:text-gold-400 transition-colors cursor-pointer">Important Dates</a></li>
+          <li><a href="faq.html" class="hover:text-gold-400 transition-colors cursor-pointer">FAQ</a></li>
+        </ul>
+        <h4 class="text-white font-semibold uppercase tracking-wider text-sm mt-8 mb-5">More</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="resources.html" class="hover:text-gold-400 transition-colors cursor-pointer">Resources</a></li>
+          <li><a href="events.html" class="hover:text-gold-400 transition-colors cursor-pointer">News &amp; Events</a></li>
+          <li><a href="about.html#leadership" class="hover:text-gold-400 transition-colors cursor-pointer">Leadership &amp; Faculty</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold uppercase tracking-wider text-sm mb-5">Visit Us</h4>
+        <p class="text-sm leading-relaxed">30 Kings Avenue,<br/>Ojodu Abiodun,<br/>Ojodu Berger, Lagos, Nigeria</p>
+        <ul class="mt-5 space-y-3 text-sm">
+          <li><a href="tel:+2348032622079" class="hover:text-gold-400 transition-colors cursor-pointer">+234 803 262 2079</a></li>
+          <li><a href="mailto:info@gtslagos.ng" class="hover:text-gold-400 transition-colors cursor-pointer">info@gtslagos.ng</a></li>
+        </ul>
+        <div class="mt-6 bg-white/5 border border-white/10 rounded-md p-4">
+          <p class="text-sm font-semibold text-gold-400">Newsletter</p>
+          <p class="text-xs mt-1 text-ivory/60">Sign up to receive news about GTS.</p>
+          <form class="mt-3 flex gap-2" onsubmit="return false;">
+            <input type="email" required placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500"/>
+            <button class="bg-gold-500 text-navy-950 text-sm font-semibold px-4 rounded hover:bg-gold-400 transition-colors cursor-pointer">Join</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ivory/50">
+      <p>&copy; 2026 Grace &amp; Truth Theological Seminary. All rights reserved.</p>
+      <div class="flex items-center gap-5">
+        <a href="#" class="hover:text-gold-400 transition-colors cursor-pointer">Privacy Policy</a>
+        <a href="#" class="hover:text-gold-400 transition-colors cursor-pointer">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top" class="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full bg-navy-900 text-gold-400 shadow-lift flex items-center justify-center hover:bg-navy-700 transition-colors cursor-pointer">
+  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
