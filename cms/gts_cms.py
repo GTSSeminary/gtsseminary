@@ -480,9 +480,37 @@ class CMSHandler(BaseHTTPRequestHandler):
             self._redirect('/admin/edit/' + page, 'Some fields were not saved: %s'
                            % ', '.join(k for k, _ in errors[:3]))
         elif action == 'publish':
-            self._redirect('/admin/edit/' + page, 'Saved and published %d field(s).' % saved)
+            result = self._deploy()
+            if result is None:
+                msg = 'Saved and published %d field(s).' % saved
+            elif result['ok']:
+                msg = ('Saved and published %d field(s). Pushed to GitHub — Vercel will '
+                       'redeploy in about a minute.' % saved)
+            else:
+                msg = ('Saved and published %d field(s), but the deploy failed: %s'
+                       % (saved, result['err'][:200]))
+            self._redirect('/admin/edit/' + page, msg)
         else:
             self._redirect('/admin/edit/' + page, 'Saved %d draft field(s).' % saved)
+
+    def _deploy(self):
+        """Run publish.sh to bake content and push. Returns None when the
+        deploy is disabled/not configured, or a dict with ok/err."""
+        script = os.path.join(SITE, 'publish.sh')
+        if not os.path.exists(script):
+            return None
+        try:
+            import subprocess
+            proc = subprocess.run([script, 'Publish CMS content updates'],
+                                  cwd=SITE, capture_output=True, text=True, timeout=120)
+            out = (proc.stdout + proc.stderr).strip()
+            if proc.returncode == 0:
+                return {'ok': True, 'err': ''}
+            return {'ok': False, 'err': out[-500:] or 'publish.sh exited %d' % proc.returncode}
+        except subprocess.TimeoutExpired:
+            return {'ok': False, 'err': 'publish.sh timed out after 120s'}
+        except Exception as exc:
+            return {'ok': False, 'err': str(exc)}
 
     def _publish_all(self, user):
         form = self._form()

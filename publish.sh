@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Bake published CMS content into the static pages, then commit and push so
 # the deployed site (Vercel) picks up the changes automatically.
+#
+# Usage:  ./publish.sh [commit message]
+#   The commit message is optional; a sensible default is used when omitted.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -13,9 +16,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-read -r -p "Commit message (default: \"Publish CMS content updates\"): " MSG
-MSG="${MSG:-Publish CMS content updates}"
-
+MSG="${1:-Publish CMS content updates}"
 git commit -m "$MSG"
 git push origin main
 echo "Pushed to origin/main."

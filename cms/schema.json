@@ -42,8 +42,8 @@
  "home.hero.quote.1": {
   "type": "text",
   "required": true,
-  "max_chars": 226,
-  "max_words": 36,
+  "max_chars": 443,
+  "max_words": 71,
   "group": "Home",
   "label": "blockquote"
  },
@@ -658,24 +658,24 @@
  "home.begin_your_call_to_ministry_today.bullet.1": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 335,
+  "max_words": 54,
   "group": "Home",
   "label": "li"
  },
  "home.begin_your_call_to_ministry_today.bullet.2": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 209,
+  "max_words": 33,
   "group": "Home",
   "label": "li"
  },
  "home.begin_your_call_to_ministry_today.bullet.3": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 218,
+  "max_words": 35,
   "group": "Home",
   "label": "li"
  },
@@ -946,32 +946,32 @@
  "about.why_gts_exists.what_we_offer.bullet.1": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 265,
+  "max_words": 42,
   "group": "About",
   "label": "li"
  },
  "about.why_gts_exists.what_we_offer.bullet.2": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 262,
+  "max_words": 42,
   "group": "About",
   "label": "li"
  },
  "about.why_gts_exists.what_we_offer.bullet.3": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 256,
+  "max_words": 41,
   "group": "About",
   "label": "li"
  },
  "about.why_gts_exists.what_we_offer.bullet.4": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 259,
+  "max_words": 41,
   "group": "About",
   "label": "li"
  },
@@ -2258,16 +2258,16 @@
  "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.2": {
   "type": "text",
   "required": true,
-  "max_chars": 275,
-  "max_words": 44,
+  "max_chars": 298,
+  "max_words": 48,
   "group": "Academics",
   "label": "li"
  },
  "academics.a_sample_of_what_you_ll_study.biblical_studies.bullet.3": {
   "type": "text",
   "required": true,
-  "max_chars": 316,
-  "max_words": 50,
+  "max_chars": 376,
+  "max_words": 60,
   "group": "Academics",
   "label": "li"
  },
@@ -2554,32 +2554,32 @@
  "admission.before_you_apply.bullet.1": {
   "type": "text",
   "required": true,
-  "max_chars": 211,
-  "max_words": 34,
+  "max_chars": 410,
+  "max_words": 66,
   "group": "Admission",
   "label": "li"
  },
  "admission.before_you_apply.bullet.2": {
   "type": "text",
   "required": true,
-  "max_chars": 192,
-  "max_words": 30,
+  "max_chars": 311,
+  "max_words": 50,
   "group": "Admission",
   "label": "li"
  },
  "admission.before_you_apply.bullet.3": {
   "type": "text",
   "required": true,
-  "max_chars": 319,
-  "max_words": 51,
+  "max_chars": 626,
+  "max_words": 100,
   "group": "Admission",
   "label": "li"
  },
  "admission.before_you_apply.bullet.4": {
   "type": "text",
   "required": true,
-  "max_chars": 313,
-  "max_words": 50,
+  "max_chars": 614,
+  "max_words": 99,
   "group": "Admission",
   "label": "li"
  },
