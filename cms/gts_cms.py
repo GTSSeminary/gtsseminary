@@ -187,6 +187,19 @@ def inject(el, value):
     its markup; otherwise the child is folded into the plain text so no
     duplicate copy is shown. lxml escapes text on serialization, so `value`
     is stored as-is and can never inject markup."""
+    # Special case: Home "How application works" bullets are list items
+    # with a number badge <span> plus a <div> containing the title/description.
+    # The CMS value duplicates that inner content; injecting it as a tail on
+    # the badge creates duplicated text before the div. Keep the visual
+    # structure clean by suppressing the tail and relying on the inner div.
+    _key = el.get('data-content-key') or ''
+    if 'begin_your_call_to_ministry_today.bullet' in _key:
+        for _c in list(el):
+            if _c.tag == 'span' and _c.tail:
+                _c.tail = None
+        if el.text:
+            el.text = None
+        return
     children = list(el)
     if not children:
         el.text = value
