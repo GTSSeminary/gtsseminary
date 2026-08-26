@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -46,12 +45,12 @@ tailwind.config = {
 <div id="scrollProgress" aria-hidden="true"></div>
 
 <!-- ===================== UTILITY TOP BAR ===================== -->
-<div class="bg-navy-950 text-ivory/80 text-sm">
+<div class="bg-navy-950 text-ivory/80 text-sm" data-skip="1">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-11">
     <div class="flex items-center gap-6">
-      <a href="tel:+2348032622079" class="flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer">
+      <a href="tel:+2348032622079" class="flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer" data-content-key="global.topbar.phone">
         <svg class="w-4 h-4 text-gold-500" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>+234 803 262 2079</a>
-      <a href="mailto:info@gtslagos.ng" class="hidden md:flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer">
+      <a href="mailto:info@gtslagos.ng" class="hidden md:flex items-center gap-2 hover:text-gold-400 transition-colors cursor-pointer" data-content-key="global.topbar.email">
         <svg class="w-4 h-4 text-gold-500" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>info@gtslagos.ng</a>
     </div>
     <div class="flex items-center gap-5">
@@ -61,23 +60,23 @@ tailwind.config = {
         <a href="#" aria-label="X (Twitter)" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewbox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg></a>
         <a href="#" aria-label="YouTube" class="hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-4 h-4" viewbox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
       </span>
-      <a href="admission.html#apply" class="bg-gold-500 text-navy-950 font-semibold text-xs px-3 py-1.5 rounded hover:bg-gold-400 transition-colors cursor-pointer">Apply Now</a>
+      <a href="admission.html#apply" class="bg-gold-500 text-navy-950 font-semibold text-xs px-3 py-1.5 rounded hover:bg-gold-400 transition-colors cursor-pointer" data-content-key="global.topbar.cta">Apply Now</a>
     </div>
   </div>
 </div>
 
 <!-- ===================== MAIN NAV ===================== -->
-<header data-navbar class="glass-nav sticky top-0 z-50">
+<header data-navbar class="glass-nav sticky top-0 z-50" data-skip="1">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
     <a href="index.html" class="flex items-center gap-3 shrink-0 cursor-pointer">
       <img src="assets/images/logo.svg" alt="Grace &amp; Truth Theological Seminary logo" width="54" height="70" class="h-14 w-auto logo-mark shrink-0">
       <span class="leading-tight">
-        <span class="block font-serif text-2xl text-navy-900 font-semibold">Grace &amp; Truth</span>
-        <span class="block text-[11px] tracking-[0.28em] uppercase text-gold-600 font-semibold">Theological Seminary</span>
+        <span class="block font-serif text-2xl text-navy-900 font-semibold" data-content-key="global.brand.name">Grace &amp; Truth</span>
+        <span class="block text-[11px] tracking-[0.28em] uppercase text-gold-600 font-semibold" data-content-key="global.brand.tagline">Theological Seminary</span>
       </span>
     </a>
 
-    <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-navy-800">
+    <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-navy-800" data-skip="1">
       <div class="group relative">
         <a href="about.html" class="nav-link active flex items-center gap-1 hover:text-navy-950 transition-colors cursor-pointer">About
           <svg class="w-3.5 h-3.5" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
@@ -144,7 +143,7 @@ tailwind.config = {
   </div>
 </header>
 
-<div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-navy-900/10 shadow-soft">
+<div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-navy-900/10 shadow-soft" data-skip="1">
   <div class="px-6 py-4 text-sm font-medium text-navy-800 space-y-4">
     <a href="about.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">About</a>
     <a href="academics.html" class="block py-1 hover:text-gold-600 transition-colors cursor-pointer">Academics</a>
@@ -159,13 +158,13 @@ tailwind.config = {
 <!-- ===================== PAGE HERO ===================== -->
 <section class="bg-navy-950 text-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-    <nav class="text-xs text-ivory/50 mb-4" aria-label="Breadcrumb">
+    <nav class="text-xs text-ivory/50 mb-4" aria-label="Breadcrumb" data-skip="1">
       <a href="index.html" class="hover:text-gold-400 transition-colors cursor-pointer">Home</a>
       <span class="mx-2">/</span>
       <span class="text-ivory/70">About</span>
     </nav>
-    <h1 class="font-serif text-4xl lg:text-6xl font-semibold">About Grace &amp; Truth</h1>
-    <p class="mt-4 text-lg text-ivory/70 max-w-2xl">A Reformed-Baptist seminary (1689 Confession) in Lagos, Nigeria, committed to preparing men and women for faithful ministry.</p>
+    <h1 class="font-serif text-4xl lg:text-6xl font-semibold" data-content-key="about.hero.title">About Grace &amp; Truth</h1>
+    <p class="mt-4 text-lg text-ivory/70 max-w-2xl" data-content-key="about.hero.paragraph.1">A Reformed-Baptist seminary (1689 Confession) in Lagos, Nigeria, committed to preparing men and women for faithful ministry.</p>
   </div>
 </section>
 
@@ -173,21 +172,21 @@ tailwind.config = {
 <section id="who-we-are" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
   <div class="grid lg:grid-cols-2 gap-14 items-center">
     <div data-reveal="left">
-      <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Who We Are</p>
-      <h2 class="font-serif text-4xl font-semibold text-navy-900">GTS is a Reformed-Baptist seminary, welcoming applications from anyone who truly desires to be a servant of God.</h2>
-      <p class="mt-6 text-navy-700 leading-relaxed text-lg">Holding to the 1689 Baptist Confession of Faith, GTS exists to train men and women for faithful ministry. Through our partner, Grace Bible University (GBU), we offer the Certificate of Ministry, the Associate Degree of Ministry, and the Bachelor's degrees in Theology and Ministry.</p>
+      <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.kicker">Who We Are</p>
+      <h2 class="font-serif text-4xl font-semibold text-navy-900" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.heading">GTS is a Reformed-Baptist seminary, welcoming applications from anyone who truly desires to be a servant of God.</h2>
+      <p class="mt-6 text-navy-700 leading-relaxed text-lg" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.paragraph.1">Holding to the 1689 Baptist Confession of Faith, GTS exists to train men and women for faithful ministry. Through our partner, Grace Bible University (GBU), we offer the Certificate of Ministry, the Associate Degree of Ministry, and the Bachelor's degrees in Theology and Ministry.</p>
       <div class="mt-8 space-y-4">
         <div class="flex items-start gap-4 bg-white rounded-lg border border-navy-900/10 p-5 shadow-soft">
           <svg class="w-6 h-6 text-gold-600 mt-0.5 shrink-0" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          <p class="text-navy-700 text-sm leading-relaxed"><strong class="text-navy-900">Faithful to Scripture.</strong> Scripture is held to be the supreme authority in every area of life — the individual, the family, the church, society, and government.</p>
+          <p class="text-navy-700 text-sm leading-relaxed" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.paragraph.2"><strong class="text-navy-900">Faithful to Scripture.</strong> Scripture is held to be the supreme authority in every area of life — the individual, the family, the church, society, and government.</p>
         </div>
         <div class="flex items-start gap-4 bg-white rounded-lg border border-navy-900/10 p-5 shadow-soft">
           <svg class="w-6 h-6 text-gold-600 mt-0.5 shrink-0" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          <p class="text-navy-700 text-sm leading-relaxed"><strong class="text-navy-900">Open to all.</strong> Admission is open to both male and female, of any age and any religious persuasion.</p>
+          <p class="text-navy-700 text-sm leading-relaxed" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.paragraph.3"><strong class="text-navy-900">Open to all.</strong> Admission is open to both male and female, of any age and any religious persuasion.</p>
         </div>
         <div class="flex items-start gap-4 bg-white rounded-lg border border-navy-900/10 p-5 shadow-soft">
           <svg class="w-6 h-6 text-gold-600 mt-0.5 shrink-0" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-          <p class="text-navy-700 text-sm leading-relaxed"><strong class="text-navy-900">Biblically tailored.</strong> Our training program is tailored according to the Bible's guidelines for ministry preparation — informing our purpose, curriculum, and faculty.</p>
+          <p class="text-navy-700 text-sm leading-relaxed" data-content-key="about.gts_is_a_reformed_baptist_seminary_welco.paragraph.4"><strong class="text-navy-900">Biblically tailored.</strong> Our training program is tailored according to the Bible's guidelines for ministry preparation — informing our purpose, curriculum, and faculty.</p>
         </div>
       </div>
     </div>
@@ -202,21 +201,21 @@ tailwind.config = {
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
     <div class="grid lg:grid-cols-2 gap-14">
       <div data-reveal="left">
-        <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Introduction &amp; Purpose</p>
-        <h2 class="font-serif text-4xl font-semibold text-navy-900">Why GTS exists</h2>
-        <p class="mt-6 text-navy-700 leading-relaxed text-lg">The world is in desperate need of faithful ministers of the gospel — men and women who know the Word of God, love the Lord Jesus Christ, and are able to teach others also. GTS exists to answer that need.</p>
-        <p class="mt-4 text-navy-700 leading-relaxed">Our purpose is to prepare servants of God according to the Bible's own guidelines for ministry preparation. We believe God has given the church a clear pattern for training its leaders, and we seek to follow that pattern faithfully.</p>
-        <p class="mt-4 font-serif text-2xl text-navy-900 italic leading-relaxed">"Commit these to faithful men who will be able to teach others also." — 2 Timothy 2:2</p>
+        <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.why_gts_exists.kicker">Introduction &amp; Purpose</p>
+        <h2 class="font-serif text-4xl font-semibold text-navy-900" data-content-key="about.why_gts_exists.heading">Why GTS exists</h2>
+        <p class="mt-6 text-navy-700 leading-relaxed text-lg" data-content-key="about.why_gts_exists.paragraph.1">The world is in desperate need of faithful ministers of the gospel — men and women who know the Word of God, love the Lord Jesus Christ, and are able to teach others also. GTS exists to answer that need.</p>
+        <p class="mt-4 text-navy-700 leading-relaxed" data-content-key="about.why_gts_exists.paragraph.2">Our purpose is to prepare servants of God according to the Bible's own guidelines for ministry preparation. We believe God has given the church a clear pattern for training its leaders, and we seek to follow that pattern faithfully.</p>
+        <p class="mt-4 font-serif text-2xl text-navy-900 italic leading-relaxed" data-content-key="about.why_gts_exists.paragraph.3">"Commit these to faithful men who will be able to teach others also." — 2 Timothy 2:2</p>
       </div>
       <div data-reveal="right" class="bg-ivory rounded-lg border border-navy-900/10 p-8 lg:p-10">
-        <h3 class="font-serif text-2xl font-semibold text-navy-900">What we offer</h3>
+        <h3 class="font-serif text-2xl font-semibold text-navy-900" data-content-key="about.why_gts_exists.what_we_offer.heading">What we offer</h3>
         <ul class="mt-6 space-y-5">
-          <li class="flex gap-4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">1</span> Theological groundingDoctrine, biblical languages, hermeneutics, and church history.<div><p class="font-semibold text-navy-900">Theological grounding</p><p class="text-sm text-navy-600 mt-1">Doctrine, biblical languages, hermeneutics, and church history.</p></div></li>
-          <li class="flex gap-4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">2</span> Pastoral formationPastoral theology, preaching, and the practical work of ministry.<div><p class="font-semibold text-navy-900">Pastoral formation</p><p class="text-sm text-navy-600 mt-1">Pastoral theology, preaching, and the practical work of ministry.</p></div></li>
-          <li class="flex gap-4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">3</span> Personal mentoringA mentoring culture that shapes character as well as knowledge.<div><p class="font-semibold text-navy-900">Personal mentoring</p><p class="text-sm text-navy-600 mt-1">A mentoring culture that shapes character as well as knowledge.</p></div></li>
-          <li class="flex gap-4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">4</span> Recognized credentialsDegrees awarded through our partner, Grace Bible University.<div><p class="font-semibold text-navy-900">Recognized credentials</p><p class="text-sm text-navy-600 mt-1">Degrees awarded through our partner, Grace Bible University.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.1"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">1</span> Theological groundingDoctrine, biblical languages, hermeneutics, and church history.<div><p class="font-semibold text-navy-900">Theological grounding</p><p class="text-sm text-navy-600 mt-1">Doctrine, biblical languages, hermeneutics, and church history.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.2"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">2</span> Pastoral formationPastoral theology, preaching, and the practical work of ministry.<div><p class="font-semibold text-navy-900">Pastoral formation</p><p class="text-sm text-navy-600 mt-1">Pastoral theology, preaching, and the practical work of ministry.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.3"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">3</span> Personal mentoringA mentoring culture that shapes character as well as knowledge.<div><p class="font-semibold text-navy-900">Personal mentoring</p><p class="text-sm text-navy-600 mt-1">A mentoring culture that shapes character as well as knowledge.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">4</span> Recognized credentialsDegrees awarded through our partner, Grace Bible University.<div><p class="font-semibold text-navy-900">Recognized credentials</p><p class="text-sm text-navy-600 mt-1">Degrees awarded through our partner, Grace Bible University.</p></div></li>
         </ul>
-        <a href="academics.html" class="mt-8 inline-flex items-center gap-2 bg-navy-900 text-white font-semibold px-6 py-3 rounded hover:bg-navy-700 transition-colors cursor-pointer">Explore our programs<svg class="w-4 h-4" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+        <a href="academics.html" class="mt-8 inline-flex items-center gap-2 bg-navy-900 text-white font-semibold px-6 py-3 rounded hover:bg-navy-700 transition-colors cursor-pointer" data-content-key="about.why_gts_exists.what_we_offer.link">Explore our programs<svg class="w-4 h-4" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
       </div>
     </div>
   </div>
@@ -225,25 +224,25 @@ tailwind.config = {
 <!-- ===================== MISSION & METHOD ===================== -->
 <section id="method" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
   <div data-reveal class="max-w-2xl mb-12">
-    <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Our Mission</p>
-    <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900">A three-pronged, biblical approach</h2>
-    <p class="text-navy-600 mt-5 text-lg leading-relaxed">Our method of preparing men and women is grounded in Scripture itself.</p>
+    <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.a_three_pronged_biblical_approach.kicker">Our Mission</p>
+    <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900" data-content-key="about.a_three_pronged_biblical_approach.heading">A three-pronged, biblical approach</h2>
+    <p class="text-navy-600 mt-5 text-lg leading-relaxed" data-content-key="about.a_three_pronged_biblical_approach.paragraph.1">Our method of preparing men and women is grounded in Scripture itself.</p>
   </div>
   <div data-reveal-stagger class="grid md:grid-cols-3 gap-6">
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 hover:shadow-lift transition-shadow">
-      <p class="font-serif text-6xl font-semibold text-gold-500/60">1</p>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Doctrine</h3>
-      <p class="text-sm text-navy-600 mt-3 leading-relaxed">Sound biblical teaching for the mind, so that students know the truth and can defend it. (2 Timothy 3:16–17)</p>
+      <p class="font-serif text-6xl font-semibold text-gold-500/60" data-content-key="about.a_three_pronged_biblical_approach.paragraph.2">1</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.a_three_pronged_biblical_approach.doctrine.heading">Doctrine</h3>
+      <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.a_three_pronged_biblical_approach.doctrine.paragraph.1">Sound biblical teaching for the mind, so that students know the truth and can defend it. (2 Timothy 3:16–17)</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 hover:shadow-lift transition-shadow">
-      <p class="font-serif text-6xl font-semibold text-gold-500/60">2</p>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Meditation</h3>
-      <p class="text-sm text-navy-600 mt-3 leading-relaxed">Personal reflection that shapes the heart, cultivating a life of prayer and devotion to Christ. (1 Corinthians 2:6–16)</p>
+      <p class="font-serif text-6xl font-semibold text-gold-500/60" data-content-key="about.a_three_pronged_biblical_approach.paragraph.3">2</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.a_three_pronged_biblical_approach.meditation.heading">Meditation</h3>
+      <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.a_three_pronged_biblical_approach.meditation.paragraph.1">Personal reflection that shapes the heart, cultivating a life of prayer and devotion to Christ. (1 Corinthians 2:6–16)</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 hover:shadow-lift transition-shadow">
-      <p class="font-serif text-6xl font-semibold text-gold-500/60">3</p>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Mentoring</h3>
-      <p class="text-sm text-navy-600 mt-3 leading-relaxed">Faithful training under godly mentors, preparing students to entrust the Word to the next generation. (2 Timothy 2:2; Matthew 28:19–20)</p>
+      <p class="font-serif text-6xl font-semibold text-gold-500/60" data-content-key="about.a_three_pronged_biblical_approach.paragraph.4">3</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.a_three_pronged_biblical_approach.mentoring.heading">Mentoring</h3>
+      <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.a_three_pronged_biblical_approach.mentoring.paragraph.1">Faithful training under godly mentors, preparing students to entrust the Word to the next generation. (2 Timothy 2:2; Matthew 28:19–20)</p>
     </div>
   </div>
 </section>
@@ -253,24 +252,24 @@ tailwind.config = {
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
     <div class="grid lg:grid-cols-2 gap-14">
       <div data-reveal="left">
-        <p class="text-gold-400 text-sm font-semibold tracking-widest uppercase mb-3">Philosophy of Education</p>
-        <h2 class="font-serif text-4xl lg:text-5xl font-semibold">A Christian theistic world-and-life view</h2>
-        <p class="mt-6 text-ivory/75 leading-relaxed text-lg">GTS adopts the philosophy of education of Grace Bible University, which is based upon a Christian theistic world-and-life view — an inclusive philosophy of life that derives consistently from the Scriptures.</p>
-        <p class="mt-4 text-ivory/75 leading-relaxed">This is the first and overshadowing presupposition for a truly biblical approach to education. There is no higher authority for man in knowledge and reasoning. God is absolute, and his revelation comes to man with absolute authority; it is the inspired, infallible, inerrant, and all-sufficient Word of God.</p>
+        <p class="text-gold-400 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.a_christian_theistic_world_and_life_view.kicker">Philosophy of Education</p>
+        <h2 class="font-serif text-4xl lg:text-5xl font-semibold" data-content-key="about.a_christian_theistic_world_and_life_view.heading">A Christian theistic world-and-life view</h2>
+        <p class="mt-6 text-ivory/75 leading-relaxed text-lg" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.1">GTS adopts the philosophy of education of Grace Bible University, which is based upon a Christian theistic world-and-life view — an inclusive philosophy of life that derives consistently from the Scriptures.</p>
+        <p class="mt-4 text-ivory/75 leading-relaxed" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.2">This is the first and overshadowing presupposition for a truly biblical approach to education. There is no higher authority for man in knowledge and reasoning. God is absolute, and his revelation comes to man with absolute authority; it is the inspired, infallible, inerrant, and all-sufficient Word of God.</p>
       </div>
       <div data-reveal="right" class="space-y-4">
         <div class="bg-white/5 border border-white/10 rounded-lg p-6">
-          <p class="font-serif text-2xl font-semibold text-gold-400">The supreme authority</p>
-          <p class="text-ivory/70 text-sm mt-2 leading-relaxed">Scripture is held to be the supreme authority in every area of life for the individual, the family, the church, society, and government.</p>
-          <p class="mt-3 text-xs font-semibold text-gold-400 tracking-widest uppercase">(2 Timothy 3:16)</p>
+          <p class="font-serif text-2xl font-semibold text-gold-400" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.3">The supreme authority</p>
+          <p class="text-ivory/70 text-sm mt-2 leading-relaxed" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.4">Scripture is held to be the supreme authority in every area of life for the individual, the family, the church, society, and government.</p>
+          <p class="mt-3 text-xs font-semibold text-gold-400 tracking-widest uppercase" data-content-key="about.a_christian_theistic_world_and_life_view.kicker.2">(2 Timothy 3:16)</p>
         </div>
         <div class="bg-white/5 border border-white/10 rounded-lg p-6">
-          <p class="font-serif text-2xl font-semibold text-gold-400">From truth to life</p>
-          <p class="text-ivory/70 text-sm mt-2 leading-relaxed">Education is not merely the transfer of information; it is the formation of a whole person whose thinking and living are brought into line with the truth of God.</p>
+          <p class="font-serif text-2xl font-semibold text-gold-400" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.5">From truth to life</p>
+          <p class="text-ivory/70 text-sm mt-2 leading-relaxed" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.6">Education is not merely the transfer of information; it is the formation of a whole person whose thinking and living are brought into line with the truth of God.</p>
         </div>
         <div class="bg-white/5 border border-white/10 rounded-lg p-6">
-          <p class="font-serif text-2xl font-semibold text-gold-400">For the whole of life</p>
-          <p class="text-ivory/70 text-sm mt-2 leading-relaxed">Our philosophy touches every course we teach and every relationship we build — because the Christian worldview is an inclusive philosophy of life.</p>
+          <p class="font-serif text-2xl font-semibold text-gold-400" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.7">For the whole of life</p>
+          <p class="text-ivory/70 text-sm mt-2 leading-relaxed" data-content-key="about.a_christian_theistic_world_and_life_view.paragraph.8">Our philosophy touches every course we teach and every relationship we build — because the Christian worldview is an inclusive philosophy of life.</p>
         </div>
       </div>
     </div>
@@ -281,22 +280,22 @@ tailwind.config = {
 <section id="confession" class="bg-white border-y border-navy-900/10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
     <div data-reveal class="max-w-2xl mb-10">
-      <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Confession of Faith</p>
-      <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900">The 1689 Baptist Confession</h2>
-      <p class="text-navy-600 mt-5 text-lg">GTS is a Reformed-Baptist seminary that holds faithfully to the Second London Baptist Confession of Faith (1689).</p>
+      <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.the_1689_baptist_confession.kicker">Confession of Faith</p>
+      <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900" data-content-key="about.the_1689_baptist_confession.heading">The 1689 Baptist Confession</h2>
+      <p class="text-navy-600 mt-5 text-lg" data-content-key="about.the_1689_baptist_confession.paragraph.1">GTS is a Reformed-Baptist seminary that holds faithfully to the Second London Baptist Confession of Faith (1689).</p>
     </div>
     <div data-reveal-stagger class="grid md:grid-cols-3 gap-6">
       <div class="bg-ivory rounded-lg border border-navy-900/10 p-7">
-        <h3 class="font-serif text-2xl font-semibold text-navy-900">Reformed</h3>
-        <p class="text-sm text-navy-600 mt-3 leading-relaxed">Committed to the historic Reformed doctrines of grace — God's sovereignty in salvation and his glory in all things.</p>
+        <h3 class="font-serif text-2xl font-semibold text-navy-900" data-content-key="about.the_1689_baptist_confession.reformed.heading">Reformed</h3>
+        <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.the_1689_baptist_confession.reformed.paragraph.1">Committed to the historic Reformed doctrines of grace — God's sovereignty in salvation and his glory in all things.</p>
       </div>
       <div class="bg-ivory rounded-lg border border-navy-900/10 p-7">
-        <h3 class="font-serif text-2xl font-semibold text-navy-900">Baptist</h3>
-        <p class="text-sm text-navy-600 mt-3 leading-relaxed">Convicted of believers' baptism and the congregational government of the local church according to Scripture.</p>
+        <h3 class="font-serif text-2xl font-semibold text-navy-900" data-content-key="about.the_1689_baptist_confession.baptist.heading">Baptist</h3>
+        <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.the_1689_baptist_confession.baptist.paragraph.1">Convicted of believers' baptism and the congregational government of the local church according to Scripture.</p>
       </div>
       <div class="bg-ivory rounded-lg border border-navy-900/10 p-7">
-        <h3 class="font-serif text-2xl font-semibold text-navy-900">Confessional</h3>
-        <p class="text-sm text-navy-600 mt-3 leading-relaxed">Standing in the stream of historic Baptist confessional theology, teaching what faithful Baptists have believed for centuries.</p>
+        <h3 class="font-serif text-2xl font-semibold text-navy-900" data-content-key="about.the_1689_baptist_confession.confessional.heading">Confessional</h3>
+        <p class="text-sm text-navy-600 mt-3 leading-relaxed" data-content-key="about.the_1689_baptist_confession.confessional.paragraph.1">Standing in the stream of historic Baptist confessional theology, teaching what faithful Baptists have believed for centuries.</p>
       </div>
     </div>
   </div>
@@ -305,43 +304,43 @@ tailwind.config = {
 <!-- ===================== LEADERSHIP ===================== -->
 <section id="leadership" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 scroll-mt-24">
   <div data-reveal class="max-w-2xl mb-12">
-    <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3">Leadership &amp; Faculty</p>
-    <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900">The men God has given to GTS</h2>
-    <p class="text-navy-600 mt-5 text-lg leading-relaxed">An academic environment shaped by godly mentors who combine expertise and passion for the glory of God.</p>
+    <p class="text-gold-600 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.the_men_god_has_given_to_gts.kicker">Leadership &amp; Faculty</p>
+    <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-navy-900" data-content-key="about.the_men_god_has_given_to_gts.heading">The men God has given to GTS</h2>
+    <p class="text-navy-600 mt-5 text-lg leading-relaxed" data-content-key="about.the_men_god_has_given_to_gts.paragraph.1">An academic environment shaped by godly mentors who combine expertise and passion for the glory of God.</p>
   </div>
   <div data-reveal-stagger class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">PT</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Pastor Tony Okoroh</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Director / Principal</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.pastor_tony_okoroh.heading">Pastor Tony Okoroh</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.pastor_tony_okoroh.kicker">Director / Principal</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">SD</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Director</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Student Dean</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.director.heading">Director</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.director.kicker">Student Dean</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">AD</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Director</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Academic Dean</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.director.heading.2">Director</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.director.kicker.2">Academic Dean</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">AA</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Administrator</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Admissions Coordinator</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.administrator.heading">Administrator</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.administrator.kicker">Admissions Coordinator</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">OA</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Pastor Osagie Azeta</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Faculty</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.pastor_osagie_azeta.heading">Pastor Osagie Azeta</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.pastor_osagie_azeta.kicker">Faculty</p>
     </div>
     <div class="bg-white rounded-lg border border-navy-900/10 p-8 text-center hover:shadow-lift transition-shadow">
       <div class="w-20 h-20 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-2xl font-semibold mx-auto">AP</div>
-      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4">Pastor Abutu Peter Joshua</h3>
-      <p class="text-sm text-gold-600 font-semibold mt-1">Faculty</p>
+      <h3 class="font-serif text-2xl font-semibold text-navy-900 mt-4" data-content-key="about.the_men_god_has_given_to_gts.pastor_abutu_peter_joshua.heading">Pastor Abutu Peter Joshua</h3>
+      <p class="text-sm text-gold-600 font-semibold mt-1" data-content-key="about.the_men_god_has_given_to_gts.pastor_abutu_peter_joshua.kicker">Faculty</p>
     </div>
   </div>
-  <p class="mt-8 text-xs text-navy-400">Additional assisting and visiting part-time lecturers serve alongside the core faculty. Portraits to be added.</p>
+  <p class="mt-8 text-xs text-navy-400" data-content-key="about.the_men_god_has_given_to_gts.paragraph.2">Additional assisting and visiting part-time lecturers serve alongside the core faculty. Portraits to be added.</p>
 </section>
 
 <!-- ===================== GBU PARTNER ===================== -->
@@ -349,12 +348,12 @@ tailwind.config = {
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 scroll-mt-24">
     <div class="grid lg:grid-cols-3 gap-10 items-center">
       <div data-reveal="left" class="lg:col-span-1">
-        <p class="text-gold-400 text-sm font-semibold tracking-widest uppercase mb-3">Our Partner</p>
-        <h2 class="font-serif text-4xl font-semibold">Grace Bible University</h2>
+        <p class="text-gold-400 text-sm font-semibold tracking-widest uppercase mb-3" data-content-key="about.grace_bible_university.kicker">Our Partner</p>
+        <h2 class="font-serif text-4xl font-semibold" data-content-key="about.grace_bible_university.heading">Grace Bible University</h2>
       </div>
       <div data-reveal="right" class="lg:col-span-2 space-y-5 text-ivory/75 leading-relaxed">
-        <p>GTS partners with Grace Bible University (GBU), through whom our certificates and degrees are awarded upon completion of course requirements. GTS has fully adopted the study methodology of GBU, which has developed a unique method of study combining doctrinal instruction, personal meditation, and structured mentoring.</p>
-        <p class="font-serif text-2xl text-ivory italic">Working together to equip the next generation of faithful servants of God.</p>
+        <p data-content-key="about.grace_bible_university.paragraph.1">GTS partners with Grace Bible University (GBU), through whom our certificates and degrees are awarded upon completion of course requirements. GTS has fully adopted the study methodology of GBU, which has developed a unique method of study combining doctrinal instruction, personal meditation, and structured mentoring.</p>
+        <p class="font-serif text-2xl text-ivory italic" data-content-key="about.grace_bible_university.paragraph.2">Working together to equip the next generation of faithful servants of God.</p>
       </div>
     </div>
   </div>
@@ -363,28 +362,28 @@ tailwind.config = {
 <!-- ===================== CTA ===================== -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   <div data-reveal class="bg-ivory rounded-lg border border-navy-900/10 p-10 text-center">
-    <h2 class="font-serif text-3xl lg:text-4xl font-semibold text-navy-900">Ready to join a seminary committed to faithful ministry?</h2>
-    <p class="text-navy-600 mt-3 max-w-xl mx-auto">Admission is open to both men and women of any age and any religious persuasion. Training is tuition-free.</p>
+    <h2 class="font-serif text-3xl lg:text-4xl font-semibold text-navy-900" data-content-key="about.ready_to_join_a_seminary_committed_to_fa.heading">Ready to join a seminary committed to faithful ministry?</h2>
+    <p class="text-navy-600 mt-3 max-w-xl mx-auto" data-content-key="about.ready_to_join_a_seminary_committed_to_fa.paragraph.1">Admission is open to both men and women of any age and any religious persuasion. Training is tuition-free.</p>
     <div class="mt-7 flex flex-wrap justify-center gap-4">
-      <a href="admission.html#apply" class="bg-navy-900 text-white font-semibold px-7 py-3 rounded hover:bg-navy-700 transition-colors cursor-pointer">Apply Now</a>
-      <a href="faq.html" class="border border-navy-900/20 text-navy-900 font-semibold px-7 py-3 rounded hover:bg-white transition-colors cursor-pointer">Frequently Asked Questions</a>
+      <a href="admission.html#apply" class="bg-navy-900 text-white font-semibold px-7 py-3 rounded hover:bg-navy-700 transition-colors cursor-pointer" data-content-key="about.ready_to_join_a_seminary_committed_to_fa.link">Apply Now</a>
+      <a href="faq.html" class="border border-navy-900/20 text-navy-900 font-semibold px-7 py-3 rounded hover:bg-white transition-colors cursor-pointer" data-content-key="about.ready_to_join_a_seminary_committed_to_fa.link.2">Frequently Asked Questions</a>
     </div>
   </div>
 </section>
 
 <!-- ===================== FOOTER ===================== -->
-<footer class="bg-navy-900 text-ivory/70">
+<footer class="bg-navy-900 text-ivory/70" data-skip="1">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
       <div>
         <div class="flex items-center gap-3">
           <img src="assets/images/logo.svg" alt="Grace &amp; Truth Theological Seminary logo" width="38" height="50" class="h-16 w-auto logo-mark shrink-0">
           <div class="leading-tight">
-            <span class="block font-serif text-xl text-white font-semibold">Grace &amp; Truth</span>
-            <span class="block text-[10px] tracking-[0.26em] uppercase text-gold-500 font-semibold">Theological Seminary</span>
+            <span class="block font-serif text-xl text-white font-semibold" data-content-key="global.footer.name">Grace &amp; Truth</span>
+            <span class="block text-[10px] tracking-[0.26em] uppercase text-gold-500 font-semibold" data-content-key="global.footer.tagline">Theological Seminary</span>
           </div>
         </div>
-        <p class="mt-5 text-sm leading-relaxed">A Reformed-Baptist seminary (1689 Confession) in Lagos, training men and women for faithful ministry through doctrine, meditation, and mentoring.</p>
+        <p class="mt-5 text-sm leading-relaxed" data-content-key="global.footer.about">A Reformed-Baptist seminary (1689 Confession) in Lagos, training men and women for faithful ministry through doctrine, meditation, and mentoring.</p>
         <div class="flex items-center gap-4 mt-6">
           <a href="#" aria-label="Facebook" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewbox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
           <a href="#" aria-label="Instagram" class="text-ivory/60 hover:text-gold-400 transition-colors cursor-pointer"><svg class="w-5 h-5" viewbox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg></a>
@@ -420,14 +419,14 @@ tailwind.config = {
       </div>
       <div>
         <h4 class="text-white font-semibold uppercase tracking-wider text-sm mb-5">Visit Us</h4>
-        <p class="text-sm leading-relaxed">30 Kings Avenue,Ojodu Abiodun,Ojodu Berger, Lagos, Nigeria<br><br></p>
+        <p class="text-sm leading-relaxed" data-content-key="global.footer.address">30 Kings Avenue,Ojodu Abiodun,Ojodu Berger, Lagos, Nigeria<br><br></p>
         <ul class="mt-5 space-y-3 text-sm">
-          <li><a href="tel:+2348032622079" class="hover:text-gold-400 transition-colors cursor-pointer">+234 803 262 2079</a></li>
-          <li><a href="mailto:info@gtslagos.ng" class="hover:text-gold-400 transition-colors cursor-pointer">info@gtslagos.ng</a></li>
+          <li><a href="tel:+2348032622079" class="hover:text-gold-400 transition-colors cursor-pointer" data-content-key="global.footer.phone">+234 803 262 2079</a></li>
+          <li><a href="mailto:info@gtslagos.ng" class="hover:text-gold-400 transition-colors cursor-pointer" data-content-key="global.footer.email">info@gtslagos.ng</a></li>
         </ul>
         <div class="mt-6 bg-white/5 border border-white/10 rounded-md p-4">
           <p class="text-sm font-semibold text-gold-400">Newsletter</p>
-          <p class="text-xs mt-1 text-ivory/60">Sign up to receive news about GTS.</p>
+          <p class="text-xs mt-1 text-ivory/60" data-content-key="global.footer.newsletter">Sign up to receive news about GTS.</p>
           <form class="mt-3 flex gap-2" onsubmit="return false;">
             <input type="email" required placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500">
             <button class="bg-gold-500 text-navy-950 text-sm font-semibold px-4 rounded hover:bg-gold-400 transition-colors cursor-pointer">Join</button>
@@ -436,7 +435,7 @@ tailwind.config = {
       </div>
     </div>
     <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ivory/50">
-      <p>© 2026 Grace &amp; Truth Theological Seminary. All rights reserved.</p>
+      <p data-content-key="global.footer.copyright">© 2026 Grace &amp; Truth Theological Seminary. All rights reserved.</p>
       <div class="flex items-center gap-5">
         <a href="#" class="hover:text-gold-400 transition-colors cursor-pointer">Privacy Policy</a>
         <a href="#" class="hover:text-gold-400 transition-colors cursor-pointer">Terms</a>
