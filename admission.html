@@ -38,6 +38,20 @@ tailwind.config = {
   .nav-link:hover::after, .nav-link.active::after { width:100%; }
   .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
   .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+  /* Mobile responsive fixes */
+  @media (max-width: 640px) {
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+  }
+  /* Safe area for notched devices */
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  /* Prevent horizontal overflow */
+  html, body { overflow-x: hidden; }
+  /* Text size adjust for iOS */
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -259,20 +273,23 @@ tailwind.config = {
       <h2 class="font-serif text-4xl lg:text-5xl font-semibold">Applying to Grace &amp; Truth</h2>
     </div>
     <div data-reveal-stagger class="grid md:grid-cols-3 gap-6">
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50">1</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4">Submit your application</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed">Complete the registration forms and submit them along with your references and letter of recommendation.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10">1</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10">Submit your application</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10">Complete the registration forms and submit them along with your references and letter of recommendation.</p>
       </div>
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50">2</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4">Application review</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed">Your application will be evaluated by the seminary.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10">2</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10">Application review</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10">Your application will be evaluated by the seminary.</p>
       </div>
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50">3</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4">Interview</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed">An interview will be conducted by one or more members of the board of GTS.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10">3</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10">Interview</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10">An interview will be conducted by one or more members of the board of GTS.</p>
       </div>
     </div>
     <div class="mt-8 bg-gold-500 text-navy-950 rounded-lg p-8 lg:p-10">

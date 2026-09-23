@@ -38,6 +38,16 @@ tailwind.config = {
   .nav-link:hover::after, .nav-link.active::after { width:100%; }
   .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
   .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+  @media (max-width: 640px) {
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+  }
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  html, body { overflow-x: hidden; }
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -281,7 +291,7 @@ tailwind.config = {
         <a href="contact.html" class="mt-9 inline-flex items-center gap-2 bg-gold-500 text-navy-950 font-semibold px-7 py-3.5 rounded hover:bg-gold-400 transition-colors cursor-pointer">Request the reading list<svg class="w-4 h-4" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
       </div>
       <div data-reveal="right" class="relative">
-        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A row of books on a shelf" class="rounded-lg shadow-lift object-cover h-[420px] w-full">
+        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A row of books on a shelf" class="rounded-lg shadow-lift object-cover h-64 sm:h-80 lg:h-[420px] w-full">
         <div class="absolute -bottom-6 left-8 bg-navy-950 border border-gold-500/40 rounded-md p-5 max-w-xs">
           <p class="font-serif text-lg font-semibold text-gold-400">"Faith comes by hearing, and hearing by the word of God."</p>
           <p class="text-xs text-ivory/70 mt-2">Romans 10:17</p>

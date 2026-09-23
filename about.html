@@ -38,6 +38,16 @@ tailwind.config = {
   .nav-link:hover::after, .nav-link.active::after { width:100%; }
   .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
   .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+  @media (max-width: 640px) {
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+  }
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  html, body { overflow-x: hidden; }
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -192,7 +202,7 @@ tailwind.config = {
       </div>
     </div>
     <div data-reveal="right" class="relative">
-      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Books representing the study of Scripture" class="rounded-lg shadow-lift object-cover h-[500px] w-full">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Books representing the study of Scripture" class="rounded-lg shadow-lift object-cover h-64 sm:h-80 lg:h-[500px] w-full">
     </div>
   </div>
 </section>
