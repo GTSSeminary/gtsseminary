@@ -19,9 +19,8 @@
   var canvas = document.getElementById('heroCanvas');
   if (!canvas) return;
 
-  // Static fallback content is fine for reduced-motion and small screens.
+  // Static fallback content is fine for reduced-motion.
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if (window.innerWidth < 768) return;
 
   var gl;
   try {
@@ -32,10 +31,11 @@
 
   /* ---------- tunables ---------- */
   var SRC = 'assets/images/hands.jpg';
-  var GRID_X = 190;         // sample density along the wide axis
-  var LUM_MAX = 0.38;       // pixels brighter than this become void (hidden
-  var PUSH_RADIUS = 150;    // css px influence radius around pointer
-  var PUSH_FACTOR = 0.55;   // fraction of radius particles are pushed
+  var isMobile = window.innerWidth < 768;
+  var GRID_X = isMobile ? 90 : 190;   // fewer dots on mobile for perf
+  var LUM_MAX = 0.38;
+  var PUSH_RADIUS = isMobile ? 100 : 150;
+  var PUSH_FACTOR = 0.55;
 
   var dpr = Math.min(window.devicePixelRatio || 1, 2); // crisp on retina
   var cssW = 0;
@@ -218,6 +218,15 @@
     var t = (performance.now() - t0) / 1000;
     damp();
 
+    // On mobile, add gentle auto-drift when no touch interaction
+    var mx = mouseX;
+    var my = mouseY;
+    if (isMobile && strengthTarget === 0) {
+      mx = cssW * 0.5 + Math.sin(t * 0.3) * cssW * 0.15;
+      my = cssH * 0.5 + Math.cos(t * 0.25) * cssH * 0.1;
+      strength = 0.25; // gentle strength
+    }
+
     gl.viewport(0, 0, canvas.width, canvas.height);
     gl.clearColor(0, 0, 0, 0);
     gl.clear(gl.COLOR_BUFFER_BIT);
@@ -232,7 +241,7 @@
     gl.vertexAttribPointer(loc.a_seed, 1, gl.FLOAT, false, 16, 12);
 
     gl.uniform2f(loc.u_res, cssW, cssH);
-    gl.uniform2f(loc.u_mouse, mouseX / cssW, mouseY / cssH);
+    gl.uniform2f(loc.u_mouse, mx / cssW, my / cssH);
     gl.uniform1f(loc.u_radius, PUSH_RADIUS / cssW);
     gl.uniform1f(loc.u_strength, strength);
     gl.uniform1f(loc.u_dpr, dpr);
@@ -264,6 +273,23 @@
     window.addEventListener('pointermove', onMove, { passive: true });
     window.addEventListener('mouseout', onLeave, { passive: true });
     window.addEventListener('blur', onLeave, { passive: true });
+
+    // Touch support for mobile
+    canvas.addEventListener('touchstart', function (e) {
+      var touch = e.touches[0];
+      var rect = canvas.getBoundingClientRect();
+      mouseX = touch.clientX - rect.left;
+      mouseY = touch.clientY - rect.top;
+      strengthTarget = 1;
+    }, { passive: true });
+    canvas.addEventListener('touchmove', function (e) {
+      var touch = e.touches[0];
+      var rect = canvas.getBoundingClientRect();
+      mouseX = touch.clientX - rect.left;
+      mouseY = touch.clientY - rect.top;
+      strengthTarget = 1;
+    }, { passive: true });
+    canvas.addEventListener('touchend', function () { strengthTarget = 0; }, { passive: true });
 
     var resizeTimer = 0;
     window.addEventListener('resize', function () {
