@@ -37,6 +37,20 @@ tailwind.config = {
   .nav-link:hover::after, .nav-link.active::after { width:100%; }
   .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
   .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+  /* Mobile responsive fixes */
+  @media (max-width: 640px) {
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+  }
+  /* Safe area for notched devices */
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  /* Prevent horizontal overflow */
+  html, body { overflow-x: hidden; }
+  /* Text size adjust for iOS */
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -229,19 +243,19 @@ tailwind.config = {
     </div>
     <div class="lg:col-span-2">
       <ol data-reveal-stagger class="space-y-5">
-        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.1"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">1</span> Secondary education Completion of secondary school or an equivalent educational level. The applicant must be able to read and write.<div>
+        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.1"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">1</span><div>
             <h3 class="font-semibold text-navy-900">Secondary education</h3>
             <p class="text-sm text-navy-600 mt-1 leading-relaxed">Completion of secondary school or an equivalent educational level. The applicant must be able to read and write.</p>
           </div></li>
-        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.2"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">2</span> Registration forms The applicant must duly fill out registration forms and submit them accordingly.<div>
+        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.2"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">2</span><div>
             <h3 class="font-semibold text-navy-900">Registration forms</h3>
             <p class="text-sm text-navy-600 mt-1 leading-relaxed">The applicant must duly fill out registration forms and submit them accordingly.</p>
           </div></li>
-        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.3"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">3</span> Letter of recommendation A letter of recommendation from a church officer approving the student's desire to study at GTS. Exceptions may be considered on a case-by-case basis by the board of the seminary.<div>
+        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.3"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">3</span><div>
             <h3 class="font-semibold text-navy-900">Letter of recommendation</h3>
             <p class="text-sm text-navy-600 mt-1 leading-relaxed">A letter of recommendation from a church officer approving the student's desire to study at GTS. Exceptions may be considered on a case-by-case basis by the board of the seminary.</p>
           </div></li>
-        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.4"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">4</span> Two references The applicant must send in two references with the following information: full name, profession, designation, home or office address, email, phone number, and relationship to applicant.<div>
+        <li class="flex gap-5 bg-white rounded-lg border border-navy-900/10 p-6" data-content-key="admission.before_you_apply.bullet.4"><span class="shrink-0 w-10 h-10 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center font-serif text-lg font-bold">4</span><div>
             <h3 class="font-semibold text-navy-900">Two references</h3>
             <p class="text-sm text-navy-600 mt-1 leading-relaxed">The applicant must send in two references with the following information: full name, profession, designation, home or office address, email, phone number, and relationship to applicant.</p>
           </div></li>
@@ -258,20 +272,23 @@ tailwind.config = {
       <h2 class="font-serif text-4xl lg:text-5xl font-semibold" data-content-key="admission.applying_to_grace_truth.heading">Applying to Grace &amp; Truth</h2>
     </div>
     <div data-reveal-stagger class="grid md:grid-cols-3 gap-6">
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50" data-content-key="admission.applying_to_grace_truth.paragraph.1">1</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4" data-content-key="admission.applying_to_grace_truth.submit_your_application.heading">Submit your application</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed" data-content-key="admission.applying_to_grace_truth.submit_your_application.paragraph.1">Complete the registration forms and submit them along with your references and letter of recommendation.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10" data-content-key="admission.applying_to_grace_truth.paragraph.1">1</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10" data-content-key="admission.applying_to_grace_truth.submit_your_application.heading">Submit your application</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10" data-content-key="admission.applying_to_grace_truth.submit_your_application.paragraph.1">Complete the registration forms and submit them along with your references and letter of recommendation.</p>
       </div>
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50" data-content-key="admission.applying_to_grace_truth.paragraph.2">2</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4" data-content-key="admission.applying_to_grace_truth.application_review.heading">Application review</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed" data-content-key="admission.applying_to_grace_truth.application_review.paragraph.1">Your application will be evaluated by the seminary.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10" data-content-key="admission.applying_to_grace_truth.paragraph.2">2</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10" data-content-key="admission.applying_to_grace_truth.application_review.heading">Application review</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10" data-content-key="admission.applying_to_grace_truth.application_review.paragraph.1">Your application will be evaluated by the seminary.</p>
       </div>
-      <div class="glass-soft rounded-lg p-8">
-        <p class="font-serif text-5xl font-semibold text-gold-400/50" data-content-key="admission.applying_to_grace_truth.paragraph.3">3</p>
-        <h3 class="font-serif text-2xl font-semibold mt-4" data-content-key="admission.applying_to_grace_truth.interview.heading">Interview</h3>
-        <p class="text-ivory/70 text-sm mt-3 leading-relaxed" data-content-key="admission.applying_to_grace_truth.interview.paragraph.1">An interview will be conducted by one or more members of the board of GTS.</p>
+      <div class="glass-soft rounded-2xl p-8 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 rounded-full -translate-y-8 translate-x-8" aria-hidden="true"></div>
+        <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400 font-serif text-base font-semibold relative z-10" data-content-key="admission.applying_to_grace_truth.paragraph.3">3</span>
+        <h3 class="font-serif text-xl font-semibold mt-5 relative z-10" data-content-key="admission.applying_to_grace_truth.interview.heading">Interview</h3>
+        <p class="text-ivory/60 text-sm mt-3 leading-relaxed relative z-10" data-content-key="admission.applying_to_grace_truth.interview.paragraph.1">An interview will be conducted by one or more members of the board of GTS.</p>
       </div>
     </div>
     <div class="mt-8 bg-gold-500 text-navy-950 rounded-lg p-8 lg:p-10">
@@ -417,7 +434,7 @@ tailwind.config = {
           <p class="text-sm font-semibold text-gold-400">Newsletter</p>
           <p class="text-xs mt-1 text-ivory/60" data-content-key="global.footer.newsletter">Sign up to receive news about GTS.</p>
           <form class="mt-3 flex gap-2" onsubmit="return false;">
-            <input type="email" required placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500">
+            <input type="email" required name="email" autocomplete="email" aria-label="Email address" placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500 focus:ring-2 focus:ring-gold-500/40">
             <button class="bg-gold-500 text-navy-950 text-sm font-semibold px-4 rounded hover:bg-gold-400 transition-colors cursor-pointer">Join</button>
           </form>
         </div>

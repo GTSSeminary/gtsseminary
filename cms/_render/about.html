@@ -37,6 +37,16 @@ tailwind.config = {
   .nav-link:hover::after, .nav-link.active::after { width:100%; }
   .dropdown-panel { opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, visibility .2s; }
   .group:hover .dropdown-panel, .dropdown-panel:hover { opacity:1; visibility:visible; transform:translateY(0); }
+  @media (max-width: 640px) {
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+  }
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  html, body { overflow-x: hidden; }
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -191,7 +201,7 @@ tailwind.config = {
       </div>
     </div>
     <div data-reveal="right" class="relative">
-      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Books representing the study of Scripture" class="rounded-lg shadow-lift object-cover h-[500px] w-full">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Books representing the study of Scripture" class="rounded-lg shadow-lift object-cover h-64 sm:h-80 lg:h-[500px] w-full">
     </div>
   </div>
 </section>
@@ -210,10 +220,10 @@ tailwind.config = {
       <div data-reveal="right" class="bg-ivory rounded-lg border border-navy-900/10 p-8 lg:p-10">
         <h3 class="font-serif text-2xl font-semibold text-navy-900" data-content-key="about.why_gts_exists.what_we_offer.heading">What we offer</h3>
         <ul class="mt-6 space-y-5">
-          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.1"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">1</span> Theological groundingDoctrine, biblical languages, hermeneutics, and church history.<div><p class="font-semibold text-navy-900">Theological grounding</p><p class="text-sm text-navy-600 mt-1">Doctrine, biblical languages, hermeneutics, and church history.</p></div></li>
-          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.2"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">2</span> Pastoral formationPastoral theology, preaching, and the practical work of ministry.<div><p class="font-semibold text-navy-900">Pastoral formation</p><p class="text-sm text-navy-600 mt-1">Pastoral theology, preaching, and the practical work of ministry.</p></div></li>
-          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.3"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">3</span> Personal mentoringA mentoring culture that shapes character as well as knowledge.<div><p class="font-semibold text-navy-900">Personal mentoring</p><p class="text-sm text-navy-600 mt-1">A mentoring culture that shapes character as well as knowledge.</p></div></li>
-          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">4</span> Recognized credentialsDegrees awarded through our partner, Grace Bible University.<div><p class="font-semibold text-navy-900">Recognized credentials</p><p class="text-sm text-navy-600 mt-1">Degrees awarded through our partner, Grace Bible University.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.1"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">1</span><div><p class="font-semibold text-navy-900">Theological grounding</p><p class="text-sm text-navy-600 mt-1">Doctrine, biblical languages, hermeneutics, and church history.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.2"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">2</span><div><p class="font-semibold text-navy-900">Pastoral formation</p><p class="text-sm text-navy-600 mt-1">Pastoral theology, preaching, and the practical work of ministry.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.3"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">3</span><div><p class="font-semibold text-navy-900">Personal mentoring</p><p class="text-sm text-navy-600 mt-1">A mentoring culture that shapes character as well as knowledge.</p></div></li>
+          <li class="flex gap-4" data-content-key="about.why_gts_exists.what_we_offer.bullet.4"><span class="shrink-0 w-9 h-9 rounded-full bg-navy-900 text-gold-400 flex items-center justify-center text-sm font-bold">4</span><div><p class="font-semibold text-navy-900">Recognized credentials</p><p class="text-sm text-navy-600 mt-1">Degrees awarded through our partner, Grace Bible University.</p></div></li>
         </ul>
         <a href="academics.html" class="mt-8 inline-flex items-center gap-2 bg-navy-900 text-white font-semibold px-6 py-3 rounded hover:bg-navy-700 transition-colors cursor-pointer" data-content-key="about.why_gts_exists.what_we_offer.link">Explore our programs<svg class="w-4 h-4" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
       </div>
@@ -428,7 +438,7 @@ tailwind.config = {
           <p class="text-sm font-semibold text-gold-400">Newsletter</p>
           <p class="text-xs mt-1 text-ivory/60" data-content-key="global.footer.newsletter">Sign up to receive news about GTS.</p>
           <form class="mt-3 flex gap-2" onsubmit="return false;">
-            <input type="email" required placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500">
+            <input type="email" required name="email" autocomplete="email" aria-label="Email address" placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500 focus:ring-2 focus:ring-gold-500/40">
             <button class="bg-gold-500 text-navy-950 text-sm font-semibold px-4 rounded hover:bg-gold-400 transition-colors cursor-pointer">Join</button>
           </form>
         </div>

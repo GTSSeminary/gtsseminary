@@ -33,7 +33,9 @@
   var SRC = 'assets/images/hands.jpg';
   var isMobile = window.innerWidth < 768;
   var GRID_X = isMobile ? 90 : 190;   // fewer dots on mobile for perf
-  var LUM_MAX = 0.38;
+  var LUM_MAX = isMobile ? 0.30 : 0.38; // fewer dots on mobile → more void → readable text
+  var PARTICLE_ALPHA = isMobile ? 0.52 : 0.7; // calmer dots behind content
+  var MAX_POINT = isMobile ? 4.5 : 7.0;
   var PUSH_RADIUS = isMobile ? 100 : 150;
   var PUSH_FACTOR = 0.55;
 
@@ -76,7 +78,7 @@
     '  gl_Position = vec4(ndc, 0.0, 1.0);',
     '  float d = clamp(a_dark, 0.0, 1.0);',
     '  float tw = 0.8 + 0.2 * sin(u_time * (1.4 + a_seed) + a_seed * 30.0);',
-    '  float dsize = clamp(u_res.y / 42.0, 2.0, 7.0);',
+    '  float dsize = clamp(u_res.y / 42.0, 2.0, ' + MAX_POINT.toFixed(1) + ');',
     '  float sz = d * dsize * tw;',
     '  gl_PointSize = sz * u_dpr;',
     '  v_dark = d;',
@@ -94,7 +96,7 @@
     '  vec3 goldA = vec3(0.780, 0.620, 0.260);',
     '  vec3 goldB = vec3(0.960, 0.860, 0.620);',
     '  vec3 col = mix(goldA, goldB, clamp(v_dark, 0.0, 1.0));',
-    '  gl_FragColor = vec4(col, 0.9 * edge);',
+    '  gl_FragColor = vec4(col, ' + PARTICLE_ALPHA.toFixed(2) + ' * edge);',
     '}'
   ].join('\n');
 

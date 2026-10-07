@@ -44,6 +44,30 @@ tailwind.config = {
   details > summary::-webkit-details-marker { display:none; }
   details[open] .faq-chevron { transform:rotate(180deg); }
   .faq-chevron { transition:transform .2s ease; }
+  /* Hero text legibility over the halftone background */
+  .hero-shadow { text-shadow: 0 1px 8px rgba(4,7,14,0.85), 0 2px 22px rgba(4,7,14,0.55); }
+  .hero-shadow-sm { text-shadow: 0 1px 6px rgba(4,7,14,0.9), 0 0 14px rgba(4,7,14,0.6); }
+  /* Mobile responsive fixes */
+  @media (max-width: 640px) {
+    .hero-anim { animation-duration: 0.5s; }
+    .glass { backdrop-filter: blur(12px) saturate(130%); -webkit-backdrop-filter: blur(12px) saturate(130%); }
+    .glass-soft { backdrop-filter: blur(10px) saturate(120%); -webkit-backdrop-filter: blur(10px) saturate(120%); }
+    .btn-shine { width: 100%; justify-content: center; }
+    .card-glow:hover { transform: none; }
+    /* Hero content mobile adjustments */
+    [data-spotlight] .relative.z-10 { padding-top: 3rem; padding-bottom: 2rem; }
+  }
+  @media (max-width: 380px) {
+    [data-spotlight] h1 { font-size: 2rem; }
+  }
+  /* Safe area for notched devices */
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  }
+  /* Prevent horizontal overflow */
+  html, body { overflow-x: hidden; }
+  /* Text size adjust for iOS */
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 </style>
 <link rel="stylesheet" href="assets/css/animations.css">
 </head>
@@ -164,18 +188,18 @@ tailwind.config = {
 </div>
 
 <!-- ===================== HERO ===================== -->
-<section data-spotlight aria-label="Grace &amp; Truth Theological Seminary — equipping servants of God" class="spotlight relative bg-navy-950 text-white overflow-hidden min-h-screen flex flex-col">
+<section data-spotlight aria-label="Grace &amp; Truth Theological Seminary — equipping servants of God" class="spotlight relative bg-navy-950 text-white overflow-hidden flex flex-col" style="min-height:100vh; min-height:100dvh;">
 
   <!-- ===== cinematic background layers: divine light ===== -->
   <div class="absolute inset-0 bg-navy-950" aria-hidden="true" style="background-image:radial-gradient(120% 75% at 50% -16%,#26324F 0%,transparent 58%),radial-gradient(110% 80% at 50% 120%,#06080F 0%,transparent 65%),linear-gradient(180deg,rgba(11,17,32,0) 55%,rgba(9,13,24,0.9) 100%);"></div>
   <div class="absolute inset-0 opacity-[0.05]" style="background-image:url('data:image/svg+xml;utf8,&lt;svg width=%2280%22 height=%2280%22 viewBox=%220 0 80 80%22 xmlns=%22http://www.w3.org/2000/svg%22&gt;&lt;path d=%22M40 0l5 5-5 5-5-5zM0 40l5 5-5 5-5-5zM80 40l5 5-5 5-5-5zM40 70l5 5-5 5-5-5z%22 fill=%22white%22/&gt;&lt;/svg&gt;');" aria-hidden="true"></div>
 
-  <!-- god rays -->
-  <div aria-hidden="true" class="absolute -top-[40%] left-1/2 -translate-x-1/2 w-32 h-[180%] opacity-[0.16]" style="background:linear-gradient(180deg,rgba(240,215,150,0.95) 0%,rgba(240,215,150,0) 62%);filter:blur(3px);"></div>
-  <div aria-hidden="true" class="absolute -top-[32%] left-[calc(50%+11rem)] w-24 h-[160%] -rotate-[20deg] opacity-[0.13]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 60%);filter:blur(2px);"></div>
-  <div aria-hidden="true" class="absolute -top-[32%] left-[calc(50%-17rem)] w-24 h-[160%] rotate-[20deg] opacity-[0.13]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 60%);filter:blur(2px);"></div>
-  <div aria-hidden="true" class="absolute -top-[20%] left-[calc(50%-34rem)] w-16 h-[140%] -rotate-[20deg] opacity-[0.08]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 55%);filter:blur(2px);"></div>
-  <div aria-hidden="true" class="absolute -top-[20%] left-[calc(50%+28rem)] w-16 h-[140%] rotate-[20deg] opacity-[0.08]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 55%);filter:blur(2px);"></div>
+  <!-- god rays (hidden on mobile) -->
+  <div aria-hidden="true" class="hidden lg:block absolute -top-[40%] left-1/2 -translate-x-1/2 w-32 h-[180%] opacity-[0.16]" style="background:linear-gradient(180deg,rgba(240,215,150,0.95) 0%,rgba(240,215,150,0) 62%);filter:blur(3px);"></div>
+  <div aria-hidden="true" class="hidden lg:block absolute -top-[32%] left-[calc(50%+11rem)] w-24 h-[160%] -rotate-[20deg] opacity-[0.13]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 60%);filter:blur(2px);"></div>
+  <div aria-hidden="true" class="hidden lg:block absolute -top-[32%] left-[calc(50%-17rem)] w-24 h-[160%] rotate-[20deg] opacity-[0.13]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 60%);filter:blur(2px);"></div>
+  <div aria-hidden="true" class="hidden lg:block absolute -top-[20%] left-[calc(50%-34rem)] w-16 h-[140%] -rotate-[20deg] opacity-[0.08]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 55%);filter:blur(2px);"></div>
+  <div aria-hidden="true" class="hidden lg:block absolute -top-[20%] left-[calc(50%+28rem)] w-16 h-[140%] rotate-[20deg] opacity-[0.08]" style="background:linear-gradient(180deg,rgba(240,215,150,0.9) 0%,rgba(240,215,150,0) 55%);filter:blur(2px);"></div>
 
   <!-- luminous core behind the emblem -->
   <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[56rem] h-[56rem] rounded-full opacity-[0.18] blur-3xl pointer-events-none" style="background:radial-gradient(circle,#C49A3A 0%,#B9932E 22%,transparent 62%);" aria-hidden="true"></div>
@@ -188,6 +212,9 @@ tailwind.config = {
 
   <!-- vignette -->
   <div class="absolute inset-0" style="background:radial-gradient(120% 90% at 50% 42%,transparent 52%,rgba(5,8,15,0.55) 100%);" aria-hidden="true"></div>
+
+  <!-- content readability scrim: darkens the center where text sits, keeps halftone dots visible at the edges -->
+  <div class="absolute inset-0 z-[4]" style="background:radial-gradient(62% 58% at 50% 47%,rgba(5,8,15,0.75) 0%,rgba(5,8,15,0.5) 55%,rgba(5,8,15,0) 100%);" aria-hidden="true"></div>
 
   <div class="absolute top-0 left-1/2 -translate-x-1/2 h-px w-40 bg-gradient-to-r from-transparent via-gold-500/60 to-transparent" aria-hidden="true"></div>
 
@@ -210,33 +237,33 @@ tailwind.config = {
   <div class="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
     <img src="assets/images/logo.svg" alt="The Grace &amp; Truth Theological Seminary emblem" class="hero-anim h-16 w-auto logo-mark mb-5" width="64" height="84" style="animation-delay:0s">
 
-    <p class="hero-anim inline-flex items-center gap-2.5 text-gold-400 text-xs sm:text-sm font-semibold tracking-[0.28em] uppercase" style="animation-delay:.06s" data-content-key="home.hero.kicker">Reformed-Baptist · 1689 Confession<span class="relative flex h-2 w-2" aria-hidden="true">
+    <p class="hero-anim inline-flex items-center gap-2.5 text-gold-300 hero-shadow-sm text-xs sm:text-sm font-semibold tracking-[0.28em] uppercase" style="animation-delay:.06s" data-content-key="home.hero.kicker">Reformed-Baptist · 1689 Confession<span class="relative flex h-2 w-2" aria-hidden="true">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
         <span class="relative inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
       </span></p>
 
-    <h1 class="hero-anim mt-6 font-serif text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-[1.04] font-semibold tracking-tight text-balance" style="animation-delay:.15s" data-content-key="home.hero.title">Equipping <span class="text-shimmer">Servants of God</span></h1>
+    <h1 class="hero-anim hero-shadow mt-6 font-serif text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-[1.04] font-semibold tracking-tight text-balance" style="animation-delay:.15s" data-content-key="home.hero.title">Equipping <span class="text-shimmer">Servants of God</span></h1>
 
-    <p class="hero-anim mt-6 text-ivory/80 text-lg sm:text-xl max-w-2xl leading-relaxed" style="animation-delay:.25s" data-content-key="home.hero.paragraph.1">Grace &amp; Truth Theological Seminary trains men and women for faithful ministry through a three-fold biblical method of <em class="text-gold-300 not-italic font-semibold">doctrine, meditation, and mentoring</em> — in the heart of Lagos.</p>
+    <p class="hero-anim hero-shadow mt-6 text-ivory/90 text-lg sm:text-xl max-w-2xl leading-relaxed" style="animation-delay:.25s" data-content-key="home.hero.paragraph.1">Grace &amp; Truth Theological Seminary trains men and women for faithful ministry through a three-fold biblical method of <em class="text-gold-300 not-italic font-semibold">doctrine, meditation, and mentoring</em> — in the heart of Lagos.</p>
 
     <div class="hero-anim mt-10 flex flex-wrap justify-center gap-4" style="animation-delay:.35s">
       <a href="https://gts-sms-eta.vercel.app/forms/student-application" data-magnetic class="btn-shine bg-gold-500 text-navy-950 font-semibold px-8 py-4 rounded hover:bg-gold-400 transition-colors cursor-pointer" data-content-key="home.hero.link" target="_blank" rel="noopener">Apply Now</a>
-      <a href="academics.html#degrees" class="btn-shine border border-white/30 text-white font-semibold px-8 py-4 rounded hover:bg-white/10 transition-colors cursor-pointer" data-content-key="home.hero.link.2">Explore Programs</a>
+      <a href="academics.html#degrees" class="btn-shine border border-white/40 bg-navy-950/45 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded hover:bg-white/15 transition-colors cursor-pointer" data-content-key="home.hero.link.2">Explore Programs</a>
     </div>
 
-    <blockquote class="hero-anim mt-12 max-w-2xl w-full" style="animation-delay:.45s" data-content-key="home.hero.quote.1">"The things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also." 2 Timothy 2:2<div class="glass-soft rounded-2xl px-6 py-5 sm:px-8">
-        <p class="font-serif italic text-ivory/85 text-lg sm:text-xl leading-relaxed">"The things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also."</p>
+    <blockquote class="hero-anim mt-12 max-w-2xl w-full" style="animation-delay:.45s"><div class="glass-soft rounded-2xl px-6 py-5 sm:px-8" style="background:rgba(8,12,22,0.58);">
+        <p class="font-serif italic text-ivory/90 text-lg sm:text-xl leading-relaxed hero-shadow" data-content-key="home.hero.quote.1">"The things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also."</p>
         <div class="mt-4 flex items-center justify-center gap-4">
           <span class="h-px w-8 bg-gold-500/40" aria-hidden="true"></span>
-          <cite class="not-italic text-xs font-semibold tracking-widest uppercase text-gold-400">2 Timothy 2:2</cite>
+          <cite class="not-italic text-xs font-semibold tracking-widest uppercase text-gold-300 hero-shadow-sm">2 Timothy 2:2</cite>
           <span class="h-px w-8 bg-gold-500/40" aria-hidden="true"></span>
         </div>
       </div></blockquote>
 
     <div class="hero-anim mt-9 flex flex-wrap items-center justify-center gap-3" style="animation-delay:.55s">
-      <span class="inline-flex items-center gap-2 glass-soft rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/75" data-content-key="home.hero.accent.1">Open to any age · both genders</span>
-      <span class="inline-flex items-center gap-2 glass-soft rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/75"><span class="font-serif text-base text-gold-400 leading-none" data-count="4">0</span> programs of study</span>
-      <span class="inline-flex items-center gap-2 glass-soft rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/75" data-content-key="home.hero.accent.2">Ministry of Sovereign Grace Bible Church</span>
+      <span class="inline-flex items-center gap-2 glass-soft hero-shadow-sm rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/85" data-content-key="home.hero.accent.1">Open to any age · both genders</span>
+      <span class="inline-flex items-center gap-2 glass-soft hero-shadow-sm rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/85"><span class="font-serif text-base text-gold-300 leading-none" data-count="4">0</span> programs of study</span>
+      <span class="inline-flex items-center gap-2 glass-soft hero-shadow-sm rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-widest text-ivory/85" data-content-key="home.hero.accent.2">Ministry of Sovereign Grace Bible Church</span>
     </div>
   </div>
 
@@ -379,7 +406,7 @@ tailwind.config = {
       </div>
     </div>
     <div data-reveal="right" class="relative">
-      <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Students studying together" class="rounded-lg shadow-lift object-cover h-[480px] w-full">
+      <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Students studying together" class="rounded-lg shadow-lift object-cover h-72 sm:h-80 lg:h-[480px] w-full">
       <div class="absolute -bottom-8 left-8 bg-navy-900 text-white rounded-md p-6 shadow-lift max-w-xs">
         <p class="font-serif text-lg font-semibold text-gold-400" data-content-key="home.a_reformed_baptist_seminary_welcoming_al.paragraph.4">"Admission is open to both male and female, of any age and any religious persuasion."</p>
       </div>
@@ -542,26 +569,39 @@ tailwind.config = {
       <div data-reveal="right" class="relative">
         <div class="absolute -inset-3 rounded-[2rem] border border-gold-500/20 translate-x-4 translate-y-4 pointer-events-none hidden lg:block" aria-hidden="true"></div>
         <div class="glass relative rounded-[2rem] p-8 lg:p-10">
-          <div class="flex items-center gap-4">
-            <img src="assets/images/logo.svg" alt="" aria-hidden="true" class="h-12 w-auto logo-mark shrink-0">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="shrink-0 w-12 h-12 rounded-xl bg-gold-500/15 border border-gold-500/25 flex items-center justify-center">
+              <img src="assets/images/logo.svg" alt="" aria-hidden="true" class="h-7 w-auto">
+            </div>
             <div>
               <p class="font-serif text-2xl font-semibold text-white" data-content-key="home.begin_your_call_to_ministry_today.paragraph.2">How application works</p>
-              <p class="text-xs text-ivory/60 mt-0.5" data-content-key="home.begin_your_call_to_ministry_today.paragraph.3">Three steps to study at GTS</p>
+              <p class="text-xs text-ivory/50 mt-0.5 tracking-wide" data-content-key="home.begin_your_call_to_ministry_today.paragraph.3">Three steps to study at GTS</p>
             </div>
           </div>
-          <ol class="mt-8 space-y-6">
-            <li class="flex gap-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.1"><span class="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full bg-gold-500 text-navy-950 font-serif text-lg font-semibold">1</span><div>
-                <p class="font-semibold text-white">Submit your application</p>
-                <p class="text-sm text-ivory/70 mt-1 leading-relaxed">Complete the registration forms, with your references and letter of recommendation.</p>
-              </div></li>
-            <li class="flex gap-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.2"><span class="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/10 border border-white/15 text-gold-400 font-serif text-lg font-semibold">2</span><div>
-                <p class="font-semibold text-white">Application review</p>
-                <p class="text-sm text-ivory/70 mt-1 leading-relaxed">Your application is evaluated by the seminary.</p>
-              </div></li>
-            <li class="flex gap-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.3"><span class="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/10 border border-white/15 text-gold-400 font-serif text-lg font-semibold">3</span><div>
-                <p class="font-semibold text-white">Interview</p>
-                <p class="text-sm text-ivory/70 mt-1 leading-relaxed">A member of the GTS board interviews you before admission.</p>
-              </div></li>
+          <ol class="relative space-y-0">
+            <!-- connecting line -->
+            <div class="absolute left-[18px] top-[36px] bottom-[36px] w-px bg-white/10 hidden sm:block" aria-hidden="true"></div>
+            <li class="relative flex gap-5 py-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.1">
+              <span class="shrink-0 relative z-10 inline-flex items-center justify-center w-9 h-9 rounded-full bg-gold-500 text-navy-950 font-serif text-sm font-semibold shadow-lg shadow-gold-500/25">1</span>
+              <div class="pt-1">
+                <p class="font-semibold text-white text-[15px]">Submit your application</p>
+                <p class="text-sm text-ivory/60 mt-1.5 leading-relaxed">Complete the registration forms with your references and letter of recommendation.</p>
+              </div>
+            </li>
+            <li class="relative flex gap-5 py-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.2">
+              <span class="shrink-0 relative z-10 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/8 border border-white/12 text-gold-400 font-serif text-sm font-semibold">2</span>
+              <div class="pt-1">
+                <p class="font-semibold text-white text-[15px]">Application review</p>
+                <p class="text-sm text-ivory/60 mt-1.5 leading-relaxed">Your application is evaluated by the seminary.</p>
+              </div>
+            </li>
+            <li class="relative flex gap-5 py-4" data-content-key="home.begin_your_call_to_ministry_today.bullet.3">
+              <span class="shrink-0 relative z-10 inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/8 border border-white/12 text-gold-400 font-serif text-sm font-semibold">3</span>
+              <div class="pt-1">
+                <p class="font-semibold text-white text-[15px]">Interview</p>
+                <p class="text-sm text-ivory/60 mt-1.5 leading-relaxed">A member of the GTS board interviews you before admission.</p>
+              </div>
+            </li>
           </ol>
         </div>
       </div>
@@ -626,7 +666,7 @@ tailwind.config = {
           <p class="text-sm font-semibold text-gold-400">Newsletter</p>
           <p class="text-xs mt-1 text-ivory/60" data-content-key="global.footer.newsletter">Sign up to receive news about GTS.</p>
           <form class="mt-3 flex gap-2" onsubmit="return false;">
-            <input type="email" required placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500">
+            <input type="email" required name="email" autocomplete="email" aria-label="Email address" placeholder="Your email" class="w-full bg-white/10 border border-white/20 rounded px-3 py-2 text-sm text-white placeholder-ivory/40 focus:outline-none focus:border-gold-500 focus:ring-2 focus:ring-gold-500/40">
             <button class="bg-gold-500 text-navy-950 text-sm font-semibold px-4 rounded hover:bg-gold-400 transition-colors cursor-pointer">Join</button>
           </form>
         </div>
